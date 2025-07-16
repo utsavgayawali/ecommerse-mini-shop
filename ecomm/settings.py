@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-z0zrmix7(!dmr3lm7abwflzl#td*$+y)39!2c*__mh)6v&#647
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['ecommerse-mini-shop.onrender.com','localhost','127.0.0.1']
 
 
 # Application definition
