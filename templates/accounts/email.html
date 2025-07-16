@@ -1,0 +1,22 @@
+{% extends "accounts/accountbase.html" %} {% load static %} {% block body %}
+<div class="container">
+  <h2>Reset Password</h2>
+  <form method="POST" action="#">
+    {% csrf_token %}
+    <label>Email Address</label>
+    <input type="email" name="email" placeholder="Enter your email" required />
+    {% if messages %} 
+    {% for message in messages %}
+     {% if message.tags == 'error' %}
+    <div class="text-danger" role="alert">{{message}}</div>
+    {% else %}
+    <div class="text-success" role="alert">{{message}}</div>
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+    <button type="submit">Send Reset Link</button>
+    <div class="link">Back to <a href="{% url 'login_view' %}">Login</a></div>
+  </form>
+</div>
+
+{% endblock body %}

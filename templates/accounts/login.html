@@ -1,0 +1,32 @@
+{% extends "accounts/accountbase.html" %} {% load static %} {% block body %}
+
+<div class="container">
+  <h2>Login to Nepshop</h2>
+  <form method="POST" action="#">
+    {% csrf_token %}
+    <label>Email</label>
+    <input type="email" name="email" placeholder="Enter your email" required />
+    <label>Password</label>
+    <input
+      type="password"
+      name="password"
+      placeholder="Enter password"
+      required
+    />
+    {% if messages %} 
+    {% for message in messages %}
+     {% if message.tags == 'error' %}
+    <div class="text-danger" role="alert">{{message}}</div>
+    {% else %}
+    <div class="text-success" role="alert">{{message}}</div>
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+    <button type="submit">Login</button>
+    <div class="link">
+      <a href="{% url 'email_view' %}">Forgot Password?</a><br />
+      New to Nepshop? <a href="{% url 'register_view' %}">Register</a>
+    </div>
+  </form>
+</div>
+{% endblock body %}

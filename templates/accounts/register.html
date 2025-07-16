@@ -1,0 +1,44 @@
+{% extends "accounts/accountbase.html" %} {% load static %} {% block body %}
+<div class="container">
+  <h2>Create an Account</h2>
+  <form method="POST" action="#">
+    {% csrf_token %}
+    <label>First_name</label>
+    <input
+      type="text"
+      name="first_name"
+      placeholder="Choose a first_name"
+      required
+    />
+    <label>Last_name</label>
+    <input
+      type="text"
+      name="last_name"
+      placeholder="Choose a last_name"
+      required
+    />
+    <label>Email</label>
+    <input type="email" name="email" placeholder="Enter your email" required />
+    <label>Password</label>
+    <input
+      type="password"
+      name="password"
+      placeholder=" Enter your password"
+      required
+    />
+    {% if messages %} 
+    {% for message in messages %}
+     {% if message.tags == 'error' %}
+    <div class="text-danger" style="font-weight:120; font-size: 14px;" role="alert">{{message}}</div>
+    {% else %}
+    <div class="text-success" style="font-weight:120; font-size: 14px;" role="alert">{{message}}</div>
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+    <button type="submit">Register</button>
+    <div class="link">
+      Already have an account? <a href="{% url 'login_view' %}">Login</a>
+    </div>
+  </form>
+</div>
+{% endblock body %}

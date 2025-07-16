@@ -1,0 +1,56 @@
+{% extends "base/base.html" %}
+{% load static %}
+
+{% block body %}
+{% if messages %}
+  {% for message in messages %}
+    {% if message.tags == 'error' %}
+    <div class="alert alert-danger" role="alert">
+    {{message}}
+</div>
+  {% else %}
+  <div class="alert alert-success" role="alert">
+    {{message}}
+  </div>
+{% endif %}
+{% endfor %}
+{% endif %}
+
+<div class="container mt-5">
+  <h2 class="mb-4 ">{{ category.product_name|title }} Collections</h2>
+  <div class="row">
+    {% for item in items %}
+      {# Use d-flex and align-items-stretch on the column to make all columns in a row equal height #}
+      <div class="col-md-3 mb-4 d-flex align-items-stretch">
+        {# Use h-100 on the card itself to ensure it takes the full height of its column #}
+        <div class="card h-100">
+        {% if item.product_image.first %}
+          {# Bootstrap's img-fluid makes image responsive. No fixed height here, so images will vary in height. #}
+          <img src="{{ item.product_image.first.image.url }}" class="card-img-top img-fluid" alt="{{ product.title }}">
+          {% else %}
+           <img src="{% static 'default.jpg' %}" class="card-img-top img-fluid" alt="No image">
+           {% endif %}
+           {# Use d-flex and flex-column on card-body for vertical alignment #}
+           <div class="card-body d-flex flex-column">
+           <figcaption class="info-wrap border-top">
+             <a href="{% url 'product' item.slug %}" class="title text-dark text-decoration-none"> {# Added text-dark and text-decoration-none for better styling #}
+                  <b>{{item.product_name}}</b></a>
+             {# No text truncation here. Long descriptions will cause cards to be taller. #}
+             <p class="card-text mb-2"> {# Bootstrap's card-text and mb-2 for consistent margin #}
+               {{item.short_desc}}
+             </p>
+             {# Use mt-auto to push the price and rating to the bottom #}
+             <div class="price mt-auto text-danger fs-5 fw-bold"> {# fs-5 for font-size, fw-bold for font-weight #}
+               Rs.{{item.price}}
+             </div>
+                <span class="text-warning small"> {# text-warning for gold, small for font-size #}
+                  ★★★★☆(49)
+                </span>
+                </figcaption>
+           </div>
+        </div>
+      </div>
+      {% endfor %}
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,84 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block body %}
+<div class="container my-5">
+  <div class="row">
+
+    <!-- Left: Shipping Address + Cart Items -->
+    <div class="col-md-8">
+
+      <!-- Shipping Address -->
+      <div class="card p-4 mb-4">
+        <h5>Shipping Address</h5>
+        {% if address %}
+          <p><strong>{{ address.full_name }}</strong> &nbsp; {{ address.phone_no }}</p>
+          <p>{{ address.address_line1 }}, {{ address.address_line2 }}<br>
+             {{ address.city }}, {{ address.state }}, {{ address.zip_code }}</p>
+        {% else %}
+          <p class="text-danger">No shipping address found. <a href="{% url 'shipping_address' %}">Add one here</a>.</p>
+        {% endif %}
+        <a href="{% url 'shipping_address' %}" class="btn btn-sm btn-outline-primary mt-2">Edit Address</a>
+      </div>
+
+      <!-- Cart Items -->
+      <div class="card p-4">
+        <h5>Package Summary</h5>
+        {% for item in cart.cart_items.all %}
+          <div class="d-flex justify-content-between align-items-center mb-3 border-bottom pb-2">
+            <div>
+              <strong>{{ item.product.product_name }}</strong><br>
+              {% if item.size_varient %}Size: {{ item.size_varient.size_name }}<br>{% endif %}
+              Quantity: {{ item.quantity }}
+            </div>
+            <div class="text-end">
+              <span>Rs. {{ item.get_product_price }}</span>
+            </div>
+          </div>
+        {% empty %}
+          <p class="text-danger">Your cart is empty.</p>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Right: Order Summary -->
+    <div class="col-md-4">
+      <div class="card p-4">
+        <h5>Order Summary</h5>
+        <div class="d-flex justify-content-between mb-2">
+          <span>Items Total</span>
+          <span>Rs.{{ cart.get_cart_total }}</span>
+        </div>
+        <div class="d-flex justify-content-between mb-2">
+          <span>Delivery Fee</span>
+          <span>Free</span>
+        </div>
+        <hr>
+        <div class="d-flex justify-content-between">
+          <strong>Total</strong>
+          <strong>Rs. {{ cart.get_cart_total }}</strong>
+        </div>
+        <form method="post" action="{% url 'make_purchese' %}">
+          {% csrf_token %}
+          <button type="submit" class="btn btn-success btn-block mt-4 w-100">Conform your order</button>
+
+
+          {% if messages %}
+            {% for message in messages %}
+              {% if message.tags == 'error' %}
+                <div class="alert alert-danger mt-2" role="alert">
+                  {{message}}
+                </div>
+               {% else %}
+               <div class="alert alert-success mt-2" role="alert">
+                {{message}}
+              </div>
+            {% endif %}
+          {% endfor %}
+         {% endif %}
+        </form>
+      </div>
+    </div>
+
+  </div>
+</div>
+{% endblock %}

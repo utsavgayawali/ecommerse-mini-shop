@@ -1,0 +1,43 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block body %}
+<section class="section-content padding-y">
+  <div class="container">
+    <div class="row">
+      <main class="col-md-8 offset-md-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="mb-4">Edit Profile</h4>
+
+            <form method="POST" enctype="multipart/form-data">
+              {% csrf_token %}
+              
+              <div class="form-group">
+                <label for="first_name">First Name</label>
+                <input type="text" class="form-control" name="first_name" value="{{ request.user.first_name }}" required>
+              </div>
+
+              <div class="form-group">
+                <label for="last_name">Last Name</label>
+                <input type="text" class="form-control" name="last_name" value="{{ request.user.last_name }}" required>
+              </div>
+
+              <div class="form-group">
+                <label for="profile_image">Profile Image</label><br>
+                {% if request.user.profile.profile_image %}
+                  <img src="{{ request.user.profile.profile_image.url }}" width="100" class="mb-2 rounded-circle">
+                {% endif %}
+                <input type="file" class="form-control-file" name="profile_image">
+              </div>
+
+              <button type="submit" class="btn btn-primary">Save Changes</button>
+              <a href="{% url 'profile' %}" class="btn btn-secondary">Cancel</a>
+            </form>
+
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</section>
+{% endblock %}

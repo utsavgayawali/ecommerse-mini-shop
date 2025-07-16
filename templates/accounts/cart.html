@@ -1,0 +1,135 @@
+{% extends "base/base.html" %} {% load static %} {% block body %}
+<section class="section-content padding-y">
+  <div class="container">
+    <div class="row">
+      <main class="col-md-9">
+        <div class="card">
+          <table class="table table-borderless table-shopping-cart">
+            <thead class="text-muted">
+              <tr class="small text-uppercase">
+                <th scope="col">Product</th>
+                <th scope="col" width="120">Quantity</th>
+                <th scope="col" width="120">Price</th>
+                <th scope="col" class="text-right" width="200"></th>
+              </tr>
+            </thead>
+            <tbody>
+            {% if cart %}
+             {% for cart_item in cart.cart_items.all  %} 
+              <tr>
+                <td>
+                  <figure class="itemside">
+                    <div class="aside">
+                      {% if cart_item.product.product_image %}
+                        <img src="{{ cart_item.product.product_image.first.image.url }}" class="img-sm" alt="{{ cart_item.product.product_name }}" />
+                       {% else %}
+                       {% endif %}
+                    </div>
+                    <figcaption class="info">
+                      <a href="" class="title text-dark"
+                        >{{cart_item.product.product_name}}</a
+                      >
+                      <p class="text-muted small">
+                        {{cart_item.size_varient.size_name}}
+                        <br>
+                        Color: blue, Brand: Tissot
+                      </p>
+                    </figcaption>
+                  </figure>
+                </td>
+                <td>
+                 <form method="post" action="{% url 'cart_quantity' cart_item.uid %}">
+                   {% csrf_token %}
+                    <select name="quantity" class="form-control" onchange="this.form.submit()">
+                      {% for i in quantity_range%}
+                      <option value="{{i}}" {% if cart_item.quantity == i %} selected{% endif %}>{{i}}</option>
+                      {% endfor %}
+                    </select>
+                 </form>
+                </td>
+                <td>
+                  <div class="price-wrap">
+                    {% comment %} price after adding varient price {% endcomment %}
+                    <var class="price"> Rs {{cart_item.get_product_price}}</var>
+                    {% comment %} price of only product fixed price of product witout varient price {% endcomment %}
+                    <small class="text-muted">Rs {{cart_item.product.price}}</small>
+                  </div>
+                  <!-- price-wrap .// -->
+                </td>
+                <td class="text-right">
+                  <a
+                    data-original-title="Save to Wishlist"
+                    title=""
+                    href=""
+                    class="btn btn-light"
+                    data-toggle="tooltip"
+                  >
+                    <i class="fa fa-heart"></i
+                  ></a>
+                  <a href="{% url 'remove_cart' cart_item.uid %}" class="btn btn-light"> Remove</a>
+                </td>
+              </tr>
+              {% endfor %} 
+            {% else %}
+              <p> blank </p>
+            {% endif %}
+            </tbody>
+          </table>
+
+          <div class="card-body border-top">
+            
+            <a href="{% url 'home' %}" class="btn btn-light">
+              <i class="fa fa-chevron-left"></i> Continue shopping
+            </a>
+          </div>
+        </div>
+        <!-- card.// -->
+
+        <div class="alert alert-success mt-3">
+          <p class="icontext">
+            <i class="icon text-success fa fa-truck"></i> Free Delivery within
+            1-2 weeks
+          </p>
+        </div>
+      </main>
+      <!-- col.// -->
+      <aside class="col-md-3">
+        <div class="card mb-3">
+          <div class="card-body">
+          </div>
+          <!-- card-body.// -->
+        </div>
+        <!-- card .// -->
+        <div class="card">
+          <div class="card-body">
+             <dl class="dlist-align">
+              <dt>Total price:</dt>
+              <dd class="text-right">Rs 0.0</dd>
+            </dl>
+            <dl class="dlist-align">
+              <dt>Discount:</dt>
+              <dd class="text-right">Rs 0.0</dd>
+            </dl> 
+            <dl class="dlist-align">
+              <dt>Total:</dt>
+              <dd class="text-right h5"><strong>Rs {{cart.get_cart_total}}</strong></dd>
+            </dl>
+            <hr />
+            {% comment %} <p class="text-center mb-3">
+              <img src="images/misc/payments.png" height="26" />
+            </p> {% endcomment %}
+          </div>
+          <a href="{% url 'checkout' %}" class="btn btn-primary float-md-right">
+              PROCESS TO CHECKOUT <i class="fa fa-chevron-right"></i>
+            </a>
+          <!-- card-body.// -->
+        </div>
+        <!-- card .// -->
+      </aside>
+      <!-- col.// -->
+    </div>
+  </div>
+  <!-- container .//  -->
+</section>
+{% comment %} <p>{{ request.user.profile.profile_image.url }}</p> {% endcomment %}
+{% endblock body %}

@@ -1,0 +1,37 @@
+{% extends 'accounts/accountbase.html' %}
+{% load static %}
+{% block body %}
+<div class="container otp-container">
+  <h2>Verify OTP</h2>
+
+  <form method="post">
+    {% csrf_token %}
+
+    <p class="instruction">Enter the 6-digit OTP sent to your email/phone.</p>
+
+    <input
+      type="text"
+      name="otp"
+      maxlength="6"
+      placeholder="Enter OTP"
+      pattern="\d{6}"
+      required
+    />
+	{% if messages %} 
+    {% for message in messages %}
+     {% if message.tags == 'error' %}
+    <div class="text-danger" role="alert">{{message}}</div>
+    {% else %}
+    <div class="text-success" role="alert">{{message}}</div>
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+
+    <button type="submit">Verify OTP</button>
+
+    <div class="link">
+      Didn't get the code? <a href="{% url 'email_view' %}">Resend OTP</a>
+    </div>
+  </form>
+</div>
+{% endblock body %}

@@ -1,0 +1,53 @@
+{% extends 'base/base.html' %} {% load static %} {% block body %}
+<div class="container mt-5 mb-5">
+   <h2 class="mb-4 text-center">
+    {% if shipping_address %}
+      Update Shipping Address
+    {% else %}
+      Add Shipping Address
+    {% endif %}
+  </h2>
+  {% if messages %} 
+    {% for message in messages %} 
+      {% if message.tags == 'error'%}
+         <div class="alert alert-danger" role="alert">{{message}}</div>
+         {% else %}
+         <div class="alert alert-success" role="alert">{{message}}</div>
+       {% endif %}
+    {% endfor %}
+  {% endif %}
+  <form method="POST">
+    {% csrf_token %}
+    <div class="mb-3">
+      <label>Full Name</label>
+      <input type="text" class="form-control" name="full_name"  value="{{full_name_value|default_if_none:''}}"required />
+    </div>
+    <div class="mb-3">
+      <label>Phone</label>
+      <input type="text" class="form-control" name="phone_no"  value="{{phone_no_value|default_if_none:''}}"" required />
+    </div>
+    <div class="mb-3">
+      <label>Address Line 1</label>
+      <input type="text" class="form-control" name="address_line1" value="{{address_line1_value|default_if_none:''}}" required />
+    </div>
+    <div class="mb-3">
+      <label>Address Line 2 (optional)</label>
+      <input type="text" class="form-control" name="address_line2"value="{{address_line2_value|default_if_none:''}}" />
+    </div>
+    <div class="mb-3">
+      <label>City</label>
+      <input type="text" class="form-control" name="city" value="{{city_value|default_if_none:''}}" required />
+    </div>
+    <div class="mb-3">
+      <label>State</label>
+      <input type="text" class="form-control" name="state" value="{{state_value|default_if_none:''}}" required />
+    </div>
+    <div class="mb-3">
+      <label>Zip Code</label>
+      <input type="text" class="form-control" name="zipcode" value="{{zipcode_value|default_if_none:''}}" required />
+    </div>
+    <button type="submit" class="btn btn-success">Save Address</button>
+    <a href="{% url 'cart' %}" class="btn btn-secondary">Back to Cart</a>
+  </form>
+</div>
+{% endblock body%}
