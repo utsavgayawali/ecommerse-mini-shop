@@ -8,13 +8,13 @@ from product.models import Product
 
 class ShippingAddress(BaseModel):
     user= models.OneToOneField(User,on_delete=models.CASCADE)
-    full_name=models.CharField(max_length=100)
-    phone_no = models.CharField(max_length=10,null=True,blank=True)
-    address_line1= models.CharField(max_length=200)
-    address_line2= models.CharField(max_length=200,blank=True, null=True)
-    city = models.CharField(max_length=100)
-    state = models.CharField(max_length=100)
-    zip_code = models.CharField(max_length=100)
+    full_name=models.CharField(max_length=225)
+    phone_no = models.CharField(max_length=225,null=True,blank=True)
+    address_line1= models.CharField(max_length=225)
+    address_line2= models.CharField(max_length=225,blank=True, null=True)
+    city = models.CharField(max_length=225)
+    state = models.CharField(max_length=225)
+    zip_code = models.CharField(max_length=225)
 
     def __str__(self):
         return f"{self.full_name},{self.city}"

@@ -27,7 +27,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR,'templates')
 SECRET_KEY = 'django-insecure-z0zrmix7(!dmr3lm7abwflzl#td*$+y)39!2c*__mh)6v&#647'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['ecommerse-mini-shop.onrender.com','localhost','127.0.0.1']
 
@@ -187,3 +187,5 @@ STORAGES = {
 SECURE_SSL_REDIRECT = True
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
+
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')

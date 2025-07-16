@@ -4,7 +4,7 @@ from django.utils.text import slugify
 
 
 class Category(BaseModel):
-    category_name=models.CharField(max_length=100)
+    category_name=models.CharField(max_length=225)
     slug = models.SlugField(null=True,blank=True)
     category_image=models.ImageField(upload_to='category')
 
@@ -17,7 +17,7 @@ class Category(BaseModel):
 
 
 class Size_varient(BaseModel):
-    size_name= models.CharField(max_length=40)
+    size_name= models.CharField(max_length=225)
     price= models.IntegerField(default=0)
     # product= models.ForeignKey('Product',on_delete=models.CASCADE,related_name='size_varient')
 
@@ -25,7 +25,7 @@ class Size_varient(BaseModel):
         return f"{self.size_name}"
     
 class Color_varient(BaseModel):
-    color_name = models.CharField(max_length=40)
+    color_name = models.CharField(max_length=225)
     price = models.IntegerField(default=0)
     
 
@@ -35,12 +35,12 @@ class Color_varient(BaseModel):
     
 
 class Product(BaseModel):
-    product_name= models.CharField(max_length=40)
+    product_name= models.CharField(max_length=225)
     category=models.ForeignKey(Category,on_delete=models.CASCADE,related_name='product')
     price=models.IntegerField()
     slug=models.SlugField(null=True,blank=True)
     product_description=models.TextField()
-    short_desc = models.CharField(max_length=50, default="")
+    short_desc = models.CharField(max_length=225, default="")
     size_varient = models.ManyToManyField(Size_varient,blank=True)
 
 
@@ -65,7 +65,8 @@ class Product(BaseModel):
     
 class ProductImage(BaseModel):
     product=models.ForeignKey(Product,on_delete=models.CASCADE,related_name='product_image')
-    image=models.ImageField(upload_to='product')
+    image = models.ImageField(upload_to='product', max_length=255)
+
 
 
 
