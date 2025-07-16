@@ -1,0 +1,3004 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-07-14T12:18:29.306Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3a1cda18-cb84-4bc0-82ce-39ba15d20cef",
+    "object_repr": "t-shirt",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-07-14T12:19:54.726Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "cf11c4fe-005f-47b3-bb3d-975fd59d350d",
+    "object_repr": "Small",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-07-14T12:20:03.130Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3107fe57-aaac-4ffa-b843-fad56edf054b",
+    "object_repr": "Medium",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-07-14T12:20:13.108Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7c9f0310-27b5-4010-af75-98417014cf31",
+    "object_repr": "Large",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-07-14T12:21:32.408Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "596eeeaf-748a-4e5c-9360-d8be60f80955",
+    "object_repr": "Men's  T-Shirt",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (78f03e40-1405-45f3-9615-bbc6160f72dd)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (c8a1ca21-1994-4197-bafc-7e343bc83575)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-07-14T12:53:04.377Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "f0533e61-5e31-4298-b6be-b93bca53937c",
+    "object_repr": "Men's Casual Drawstring Cargo Joggers",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (d198a30c-4fcf-4c7e-b5e4-1e26a722b8a2)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (3bb55d91-c4cf-408a-bc55-e2a5285b0326)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-07-14T12:57:40.566Z",
+    "user": 2,
+    "content_type": 10,
+    "object_id": "215df3e9-9c55-4245-ab22-202e3e89f6b5",
+    "object_repr": "pants",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-07-14T12:57:59.370Z",
+    "user": 2,
+    "content_type": 10,
+    "object_id": "bc3fa100-ffba-4208-9073-703865465802",
+    "object_repr": "hoodi",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-07-14T12:58:26.546Z",
+    "user": 2,
+    "content_type": 10,
+    "object_id": "d86c3c44-5721-457f-acbe-99401d857af9",
+    "object_repr": "shorts",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-07-14T12:58:48.060Z",
+    "user": 2,
+    "content_type": 10,
+    "object_id": "90c5bb8e-f937-4262-b829-3239f0678feb",
+    "object_repr": "jacket",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-07-14T12:59:07.552Z",
+    "user": 2,
+    "content_type": 10,
+    "object_id": "db084757-a44d-4856-a8b4-d24c9d4641c7",
+    "object_repr": "shose",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-07-14T13:00:13.237Z",
+    "user": 2,
+    "content_type": 10,
+    "object_id": "db084757-a44d-4856-a8b4-d24c9d4641c7",
+    "object_repr": "shoes",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category name\", \"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-07-14T13:00:44.152Z",
+    "user": 2,
+    "content_type": 10,
+    "object_id": "bc3fa100-ffba-4208-9073-703865465802",
+    "object_repr": "hoodies",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category name\", \"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-07-14T13:01:16.000Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "f0533e61-5e31-4298-b6be-b93bca53937c",
+    "object_repr": "Men's Casual Drawstring Cargo Joggers",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-07-14T13:04:18.352Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "05c056d3-f9d4-4f2d-bc5e-666376708996",
+    "object_repr": "White & Black \"Fashion Sport\"  Shose",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (22cbf154-0826-48d5-8537-2d43d679c243)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (1f8491a8-5a88-4c14-ae7f-705417183aeb)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-07-14T13:05:44.117Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "9e535e10-cc64-4d9f-b0fb-569564b797a0",
+    "object_repr": "Essential Comfort Solid Hoodie",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (cf7acacd-2df9-415f-80ba-311f4af4e8d5)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (d52ac557-b5b9-4b8e-9efa-acc48fa98c8f)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-07-14T13:07:02.507Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "201d5a86-5e1d-467d-8983-5aa7f6e265b2",
+    "object_repr": "Men's Sporty Colorblock Track Jacket",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (8aadbe3b-e213-4625-8563-5964cddec83a)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (0494bff8-8e09-4cf7-a1c0-15d62cfcff7a)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-07-14T13:08:12.962Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "c6324594-4185-46dd-99c7-41fcfe3adc0b",
+    "object_repr": "Men's Loose Fit Beige Cargo Pants",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (d612a4ed-b435-4a1e-88b5-82ffbb22c094)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (cae3788f-828a-4a91-bbb2-f61067223cde)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-07-14T13:09:35.301Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "c8e66c75-4ae9-4299-941d-422ff42cc839",
+    "object_repr": "Custom Black & Red Nike Air Force",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (5f46b19a-5d7f-4f83-a2dc-8f1ec93f20ff)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (82662360-9661-4334-b4e9-5ab34dbc375f)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-07-14T13:10:57.851Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "d2697b3c-e6df-407c-a619-7d3d4c089e90",
+    "object_repr": "Men's Abstract Black & White Shorts",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (644c3883-3505-44df-8e35-7138e512af14)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (8b42fc1a-6434-49a5-a4ae-b5fdc5cdfd5b)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-07-14T13:13:24.642Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "08ea1380-49b3-44b3-886c-3a683d736029",
+    "object_repr": "Men's Classic Black Crew Neck T-Shirt",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (4eb76d02-1db5-4de8-b574-8d32cb1cedf4)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (d5c40954-9806-4680-99fe-a17bef4d964b)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-07-14T13:14:58.040Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "cb3a39d1-c0d0-4e0f-ba27-e88319909fbe",
+    "object_repr": "Everyday Two-Tone Pullover Hoodie",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (df257e8a-f6ee-438b-b1b8-0474448ee0af)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (58a5c614-b244-45b1-9668-9d0d4ea1fe22)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-07-14T13:16:54.711Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "4ff10691-3473-4c2e-a034-6454075d90d6",
+    "object_repr": "Men's Sherpa-Lined Overshirt Jacket",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (1989d28e-49bc-43fa-90a9-ae532b8cac6a)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (5856b8e2-0e5c-4dfc-9705-5dd7283b7bc7)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-07-14T13:17:59.082Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "4ea2fe11-dafa-4810-82cf-4164642deced",
+    "object_repr": "Men's Oversized Black Baggy Cargo Pants",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (dfb988cf-274a-4afb-9053-ff0e824244ff)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (da7dcd23-3bab-443e-9a01-5c0803194a7a)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-07-14T13:20:05.201Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "2b32f0a2-dfdc-4296-9a3a-e689ec1272b6",
+    "object_repr": "Air Jordan 4 Retro \"Thunder\" Sneakers",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (efae9f33-747b-476f-be42-17adce24d072)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (800ae263-d1e1-4416-8f10-d2333d621055)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-07-14T13:21:08.757Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "2af5a505-610c-429d-8bf4-54690fb7a024",
+    "object_repr": "Nike Men's Grey Fleece Sportswear Shorts",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (a8577a4c-a791-4722-a14b-c21550df11c7)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (e4c66cd6-3506-42cb-a5b7-fa842f9c0e21)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-07-14T13:22:28.466Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "48279a45-4663-4118-8e51-ab20801dafc2",
+    "object_repr": "Men's Black \"Butterfly Splash\" Tshirt",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (662d546d-b588-4e32-9d93-9e97b931b7d2)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (ab5bc28c-b6f6-4a09-bd06-a0390977688f)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-07-14T13:23:06.933Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "4ff10691-3473-4c2e-a034-6454075d90d6",
+    "object_repr": "Men's Sherpa-Lined Overshirt Jacket",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-07-14T13:25:17.288Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "2dd971ce-49d3-42fd-b425-ba247b765d37",
+    "object_repr": "Layered Contrast Sleeve Hoodie",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (8d3db151-209d-445f-b167-3f2f839d508d)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (9348ed83-df4c-4455-9b91-1ce5118181ae)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-07-14T13:26:34.163Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "19c806f9-c2d5-4cb1-8545-353670c6dbf6",
+    "object_repr": "Men's Diamond Quilted Insulated Bomber",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (759690ab-7b43-4156-9e05-77945ffe2beb)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (2b009bd3-0c8f-4d98-8530-4bd90594568f)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-07-14T13:27:41.725Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "502a2b58-2985-47dc-8032-f4ef0d7dcf56",
+    "object_repr": "Men's 2-in-1 Quick-Dry Running Shorts",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (a6630482-f950-4b98-bb04-b4b6ae39afa6)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (77985cf3-7dbd-4006-a539-b3f0b2742a4c)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-07-14T13:30:51.562Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "844e6837-05f5-4002-9423-353875a37c54",
+    "object_repr": "Warm Block Color Zip-Up Hoodie",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (a5fcac1f-09ba-4e2d-b734-9f22f944ffad)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (9577f955-b061-4467-a115-c855cace7e6a)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-07-14T13:32:55.574Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "bda6ab43-d5b1-40f6-9762-797db5750305",
+    "object_repr": "Men's Everyday Light Blue Denim Jacket",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (a571d0e4-64f8-464b-88c8-f2c19d094c1a)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (467ecbd4-a0ca-4695-bdc0-493968564ee8)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-07-14T13:34:07.558Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "e0a9574f-e033-4906-aab4-2c151dc7e6de",
+    "object_repr": "Men's Classic Straight Leg Blue Jeans",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (9ec25f53-8efb-48cc-a1a3-2eff1c5b9073)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (96cc5389-4da0-448e-b717-44abb9ccf505)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-07-14T13:35:07.844Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "33a9adce-cf0e-481b-9bb3-fc27af871302",
+    "object_repr": "Air Jordan 4 Retro \"Pine Green\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (46d3903d-2e7b-4c3c-b3da-8de6e74fc6fd)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (8d218b6e-c590-41f4-816e-a24fe5db8cea)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-07-14T13:36:08.133Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "9190b417-f088-4df4-b096-9ea4c4b3e5d8",
+    "object_repr": "Men's Essential Black Drawstring Shorts",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (2dcc84f3-552c-4d5a-bf26-d4964b32b764)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (32595a03-04d8-4a20-a3cc-a1a7e168892a)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-07-14T13:37:45.241Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "399a360a-1437-4321-94f2-f436132158d2",
+    "object_repr": "Men's Color Block T-Shirt",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (6fd426e8-ebc6-4f1a-84b7-3a6906f41087)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (7f235fc6-a344-4484-bce4-3a9d49f575d3)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-07-14T13:39:53.529Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "91dd9862-4d58-483a-9cf5-3f908a262d44",
+    "object_repr": "\"No Money But Love\" Graphic Hoodie",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (dcf342fc-b0a2-4410-9b81-dd4f739f0eff)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (75b66e84-f179-4011-b1cf-515b7b20ad97)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2025-07-14T13:41:08.584Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "0741820e-915d-4bc1-90f1-27e2068d4b29",
+    "object_repr": "Men's Minimalist Hooded Windbreaker",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (3e9887fe-c953-4412-801b-af1f016397cb)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (d691f7c2-4a21-4dee-b05f-7d9d41c1dc46)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2025-07-14T13:42:27.683Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "23e98b12-9277-4be7-b2a0-2baeb12a7290",
+    "object_repr": "Premium Black Multi-Pocket Cargo Pants",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (b072a68e-0a02-423b-8028-d934758d4c3c)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (e2677cab-4196-483a-b344-e46625339386)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2025-07-14T13:44:06.745Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "542242c0-1ef3-4096-960e-5559b8db8d75",
+    "object_repr": "Lacoste Grey Canvas Oxford Shoes",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (ba033b59-670c-4163-95a2-39c4b675ba2b)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (17b870b8-4e3e-4529-b284-9edb924f3675)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2025-07-14T13:47:12.906Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "1b172fd4-2048-4912-aaf2-17660994c404",
+    "object_repr": "Men's 2-in-1 Drawstring shorts",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (73b8af81-c648-4832-b38e-7159097bae4e)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (47a0e2f0-aad0-448b-b3c5-c3e2940f7087)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2025-07-14T13:48:43.617Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "2d8ac411-0bc7-4656-8eb3-9f57470de9fe",
+    "object_repr": "Men's Black T-Shirt with Red Rose",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (54c1ed30-84f2-409a-94ff-ca5d1cbd6015)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (18d5a47f-3120-474a-a347-ebf58044d5d6)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2025-07-14T13:53:08.136Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "829ac169-5609-42b3-80d9-9b0a10e6455e",
+    "object_repr": "Layered Adventure Graphic Hoodie",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (94f21dc0-1f87-4c13-9ba1-804d7173409b)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (0cf2da27-e427-41c9-814a-7898df7105a8)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2025-07-14T13:54:25.021Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "2dd430c5-a6e3-4478-b801-deda53a7abdc",
+    "object_repr": "Men's Distressed Black Wash Denim Jacke",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (92605fe1-1707-432a-89f6-1aa25bf653da)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (88124776-913e-44af-a70b-c9fc7bbaca6d)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2025-07-14T13:55:49.764Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "0f2c52ff-4172-42e9-8594-fcf781d3cab4",
+    "object_repr": ": Men's Urban Drawstring Cargo Pants",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (3a8b1fe9-8857-4b0a-b851-8007c1ad5ad1)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (0993dd46-7610-40fe-a4a1-354170563edc)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2025-07-14T13:57:15.745Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "fe3098ea-8e5f-48e0-a6e6-8a1e91648de2",
+    "object_repr": "Sleek White & Grey Urban Sport Sneakers",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (71b4fb3e-d887-4722-bc16-91c0227c8c46)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (cb806012-8eda-4692-b7de-05fe2fe71d7c)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2025-07-14T13:58:46.306Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "5c49a434-76eb-4236-9143-7da9c231bd02",
+    "object_repr": "Men's Sporty Color Block Shorts",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (4f793c49-841c-4305-8c1e-6175beac9d85)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (559143ae-4309-4cca-9289-fd8f65b4de4c)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2025-07-14T14:00:42.916Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "57025d33-0210-4349-a5e7-fc796b34c79f",
+    "object_repr": "Men's Dark Grey Cityscape Tshirt",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (f2a0786f-1819-4813-9ec6-064814deb4f6)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (eeec8f0b-babb-4681-845c-9e8ab20e7efb)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2025-07-15T02:30:34.568Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "1fa05453-6205-4829-bb34-72d62f01da91",
+    "object_repr": "Marble Print \"DREAM\" Graphic Hoodie",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (1a93d66a-de22-4670-9aa6-b33757afa122)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (16f477d0-7553-4125-9435-b4759d33e0c6)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2025-07-15T02:32:19.620Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "ca67f254-16b0-4425-b3ba-26b05791a6be",
+    "object_repr": "Men's Classic Black Lightweight jacket",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (f7ecf061-51b1-4ec2-9da2-335e0301e742)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (f5136fc2-9c14-45f8-87d1-d9eb31fc440a)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2025-07-15T02:33:47.897Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "2c8cb4af-fac3-4a66-ae9c-3bf09df7689a",
+    "object_repr": "Men's Comfortable Brown Cargo Pants",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (2945aeda-2f7f-4737-b05e-d037f80362ba)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (11eb490a-fb74-44df-8ba8-f417df147bb3)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2025-07-15T02:35:39.228Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "6b324d23-2642-428f-883e-62611e76aad4",
+    "object_repr": "Dynamic Black & White Chunky Sole Shose",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (6d83d78d-9dba-447f-a59b-4c0152903cc7)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (7ae54232-87e7-4696-b9d1-38008ffc4d76)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2025-07-15T02:37:54.678Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "9fcf17e4-09d2-4531-864f-c85afc408df0",
+    "object_repr": "Men's Two-Tone Color Block Shorts",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (ccf492ce-2ae3-4bad-afd7-c14cdd5d8d3c)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (517c2076-9304-4f39-a695-3617c09feabf)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2025-07-15T02:39:21.958Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "9dbbc8af-b581-4f14-b9a9-b01380604144",
+    "object_repr": ": Men's Tan T-Shirt with Asian Landscape",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (6ce185b5-aff1-460f-9598-06688f840be2)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (4fa17d57-1c7a-4d5c-832e-a74f6b057562)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2025-07-15T02:41:16.140Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "41d0e214-7073-4783-9a5d-4f5083d25c2e",
+    "object_repr": "Monarch Split Colorblock Sweatshirt",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (f3b0bb44-7aa6-4509-b0d4-afb3ea013d88)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (350613b0-8d30-4b6e-bfb4-106ec540c787)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2025-07-15T02:42:22.899Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "15543c02-6b79-482e-a527-d7ee3a768187",
+    "object_repr": "Men's Plush Sherpa-Lined Raglan Hoodie",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (af58b4e9-c0e1-40cd-b2dd-d57a23d32714)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (5bca4a21-e8f3-4ea8-849d-825d0b40d7e8)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2025-07-15T02:43:30.004Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "b38692bc-ab5c-4e72-8061-add767e8616b",
+    "object_repr": "Men's Technical Olive Green Workwear Pan",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (fc180ac4-9cf6-4cbb-a3dc-6883268b374c)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (c1c40839-3967-421e-994d-897a184d03f5)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2025-07-15T02:47:08.597Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "3dc42a27-6e71-49aa-80ca-5d106981d328",
+    "object_repr": "Black & White Chunky Lifestyle Sneakers",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (4a6e304b-aca1-40ff-a866-06639a7291a8)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (aefb527e-d433-4420-b5df-52743dc2c719)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2025-07-15T02:48:25.116Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "b32a6447-1f7e-4209-97e1-d440f84dc24a",
+    "object_repr": "Men's Khaki Multi-Pocket Cargo Shorts",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (5ce785c0-589a-4f58-8093-79eade6a8750)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (f479cc67-4d21-478b-ac03-277015308353)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2025-07-15T02:49:53.646Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "978a5445-dcac-4f29-b960-dfcd9f9b6f82",
+    "object_repr": "Men's Dark Grey Urban Streetwear Tshirt",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (6f8578c4-bda6-41d4-abc5-2f2f5681f74b)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (cae10d61-1573-492c-8c95-905eeed4e2c4)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2025-07-15T02:51:55.460Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "88093aa1-33c9-4470-bc10-1efa2b1d9b5d",
+    "object_repr": "Vintage Washed Oversized Hoodie",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (d407fd52-4992-4b18-a469-2800340a3250)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (6dcc06ad-d0d2-43d4-9c24-f537b5c5ad35)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2025-07-15T02:52:57.595Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "f619d927-9191-468a-9965-ee1e83cbe4f5",
+    "object_repr": "Elite Men's Wool & Faux Leather Varsity",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (9434892c-c309-4241-a96b-06659f22f3ae)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (e86f3230-da45-4896-a088-741b060beeb3)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2025-07-15T02:54:10.300Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "63685666-0de2-4e42-bb36-f442b30595fa",
+    "object_repr": "Men's Classic Khaki Cotton Cargo Pants",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (970c2098-222a-42e2-9c65-242a21cb9936)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (8badbc58-12b8-41e5-8b46-917c8dbd6fe3)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2025-07-15T02:55:22.534Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "e7e34791-4f27-4c3a-92c4-71899c75cc1a",
+    "object_repr": "Men's Rugged \"YITU Fashion\" Shose",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (346ad8d6-0cd1-4677-b77e-9289a94d9186)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (a3e9fe7d-7ce9-4eb7-abb2-1c409f3320f6)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2025-07-15T02:56:28.219Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "a293e94b-3ca9-4807-a835-35fdc5a012ee",
+    "object_repr": "Men's Grey Classic Drawstring Sweat Shor",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (087da7f6-0ab7-42f9-829c-a7b7fe777546)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (99bfc2be-600c-444f-92b6-925bbe534723)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2025-07-15T02:57:56.034Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "a20dd472-b527-441f-8f7d-9b02d2fa49cc",
+    "object_repr": "Men's Two-Tone Grey & Black T-Shirt",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (7fa6251a-4e58-456e-b14c-4650726439c1)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (72b09fac-7c80-494c-bd36-a1af85507710)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2025-07-15T03:00:34.831Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "1401b0ac-a957-4956-835c-a33b6571a698",
+    "object_repr": "Two-Tone Split Face Graphic Zip Hoodie",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (b5ce24d5-fe96-469b-be51-706e8dd21617)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (6dcd1b85-d4f5-4333-b19c-669c73511893)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2025-07-15T03:02:01.821Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "64e5a532-697e-411b-b405-6a19d64d6ba4",
+    "object_repr": "Men's Layered Distressed Denim Jacket",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (66a1592a-1551-4f66-b3cf-e2e784bfdff1)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (f4b99a12-433f-4b05-82eb-8f5823a9719d)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2025-07-15T03:03:25.780Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "8de25a58-5abb-49ac-a5e8-5b0f3f318d12",
+    "object_repr": ": Men's Slim Fit Stretch Ulrathin Pants",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (d17b043c-35cd-46cc-a738-e7906b43bc5d)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (ff97ba3c-cb65-4b67-8a33-c92e3e184909)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2025-07-15T03:04:58.129Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "85c2831c-d8e2-4e2f-aaac-77467a6a2302",
+    "object_repr": "Classic White & Blue Casual Top Sneakers",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (43be248a-7223-446b-8f55-df59224f5dc8)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (68376511-2915-4c55-a91e-3431990bd3cd)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2025-07-15T03:06:07.949Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "e3f37588-3115-4c25-85d1-0e6cd146d0f7",
+    "object_repr": "Men's Black Comfort Shorts",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (6ad128fd-bb71-44f9-9f3b-feea5b6785b1)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (3636b118-0a74-4816-9071-60fa682ac3e3)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2025-07-15T03:08:09.992Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "ff4ec6e2-70d9-40ec-a4dd-dd66c83d6e99",
+    "object_repr": "Men's Navy Blue Japanese TShirt",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (d10c7d94-9e72-47fd-a2a6-308547905926)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (1f9d65b0-4a6d-479f-b861-a1f27736bbae)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2025-07-15T03:13:20.720Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "0314f3fc-7520-45b1-bdef-cc6ccd09de30",
+    "object_repr": "Vintage Washed Oversized Hoodie",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (c3109c9c-3f6d-4de2-a271-623c756fbe61)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (a72649a8-40db-4c7a-b465-d3f7a1e7665c)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2025-07-15T03:14:12.202Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "88093aa1-33c9-4470-bc10-1efa2b1d9b5d",
+    "object_repr": "Vintage Washed Oversized Hoodies",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Product name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2025-07-15T03:17:10.175Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "4ef420d8-4798-4b4c-82cf-42b25c58012a",
+    "object_repr": "Men's Fleece-Lined Military-Style Jacket",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (6af937ca-af87-41ec-b025-ee523230f84b)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (2ca1f025-b698-4794-8bf5-d11c89dfed0c)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2025-07-15T03:19:07.962Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "43ae4709-8af4-4e76-97d4-b2a96c3a232c",
+    "object_repr": "Men's Light Wash Denim Cargo Pants",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (96513cf1-b762-486b-9eb3-5ffebed9bd3f)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (7710992f-c2c7-4558-848d-2156d241dbdc)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2025-07-15T03:21:02.926Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "fb77abe8-52ec-46f2-9e9c-7d28fd26496f",
+    "object_repr": "Adidas Campus 00s Suede Low-Top Sneakers",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (4f056ab0-3e80-4d30-abe4-4393c0f07ee2)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (84cf86e2-1051-4328-9b17-4cd2c85682c4)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2025-07-15T03:22:37.416Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "84b32a63-6f7c-407d-9fbe-471544f79cba",
+    "object_repr": "Men's 2-in-1 Athletic Shorts with Liner",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (92d0fe61-75e9-4560-8163-6d9cc5dfcbab)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (a3a75bf4-5ffc-45f1-9f58-ec2d8b647088)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2025-07-15T03:24:50.539Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "dc14d0d7-4acb-49b9-ae0e-0beb4fe974b8",
+    "object_repr": "Teen Boys' Sage Green Tshirt",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (b207fbca-d314-4189-84d7-7c7c11d840d1)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (ec2813a9-6a24-44c6-a3ff-854f436351b7)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2025-07-15T03:26:37.275Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "c1f614e7-7bef-42d8-b2ac-1faf17d0875a",
+    "object_repr": "Eastern Dragon Graphic Pullover Hoodie",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (f3ddb502-8994-4ed4-aec0-ca8154762027)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (b243a03d-03a5-4efd-b2e3-d9f0c197ec7c)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2025-07-15T03:27:50.968Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "9d26324c-d2db-476c-9415-b30e0d17753f",
+    "object_repr": "Men's Multi-Color Lightweight  Jacket",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (3d5c613e-71b3-4119-b609-952e9e41d7bc)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (14b0ee83-e22a-4085-bea9-a5019c3b0dd9)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2025-07-15T03:29:28.638Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "198916f4-e7b1-4671-b034-9831dd9a541a",
+    "object_repr": "Classic Black Fleece Jogger Sweatpants",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (64319c65-c80f-4d08-8110-67e1f333ab37)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (81bba273-8467-4ed7-97e4-b02efb3aa640)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2025-07-15T03:30:53.130Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "b0efddfe-6aca-4159-b4be-bea4d670cad9",
+    "object_repr": "Black & White Knit Sneakers",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (de58732a-1def-4567-b988-08934b64427a)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (a2b55898-c178-465c-a75f-8938a8b8003e)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2025-07-15T03:33:05.502Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "55c81916-426e-48e9-a907-139cfc0886f7",
+    "object_repr": "Men's Grey T-shirt with Asian Ink",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (d5435d5f-032f-4d05-925f-ba48b2a94349)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (454d0717-4ae9-41fc-8be6-58631da4cd6d)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2025-07-15T03:37:09.076Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "d5ca3032-3f68-42fe-935d-7723261cb2c2",
+    "object_repr": "Nike Men's Grey Fleece Sportswear Shorts",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (1b6e070b-6276-415e-be31-2f1213e4e275)\"}}, {\"added\": {\"name\": \"product image\", \"object\": \"ProductImage object (07ecf64e-18e9-4d0c-a976-40c72521589d)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2025-07-15T03:38:20.600Z",
+    "user": 2,
+    "content_type": 13,
+    "object_id": "d5ca3032-3f68-42fe-935d-7723261cb2c2",
+    "object_repr": "Nike Men's Grey Sportswear Shorts",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Product name\"]}}]"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$0XmAwfNZdlHbFYRvG3SkXD$ygDjvC44R4b9oFHvq6riJhqLrw79RGPBLsobrwNephE=",
+    "last_login": "2025-07-14T12:16:44.171Z",
+    "is_superuser": true,
+    "username": "ecommerse",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-07-14T12:16:33.662Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$TytbtgT0jiP8aNE6vI02r0$4pZe9q5MB7S4R/b/OUlYmRR+69j+9KR7YAfhZyBlP/U=",
+    "last_login": "2025-07-14T12:31:27.337Z",
+    "is_superuser": true,
+    "username": "ugayawali@gmail.com",
+    "first_name": "Utsab",
+    "last_name": "Gayawali",
+    "email": "ugayawali@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-07-14T12:30:25.360Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1xi37zy620vmj1z52f8j8toqalvqznxv",
+  "fields": {
+    "session_data": ".eJxVjEEOgjAURO_StWkKpdS6dM8ZyPT_X0FNm1BYGe-uJCx0O--9eakR2zqNW5VlnFldVKtOv1sEPSTvgO_It6Kp5HWZo94VfdCqh8LyvB7u38GEOn1rctI1Nvimh3MSkokMRCLHFNBCnE09ofHJWs-I4ghi-k7kbAw4BPX-AA-0OUc:1ubIL9:fHBP6C2mpIHD8iVd0BMp-SjcOLCbmSxyKwix5ehEP2c",
+    "expire_date": "2025-07-28T12:31:27.339Z"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": "265b8b22-4c64-4a19-aab0-e7cfbb932833",
+  "fields": {
+    "created_at": "2025-07-14T12:16:34.147Z",
+    "updated_at": "2025-07-14T12:16:34.147Z",
+    "user": 1,
+    "is_email_verified": false,
+    "email_token": "1242aa1d-140d-4fc6-85da-595f5635b020",
+    "profile_image": "profile/default.png"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": "33c64d1d-2778-443b-ac64-9da3cd0fec6e",
+  "fields": {
+    "created_at": "2025-07-14T12:31:56.309Z",
+    "updated_at": "2025-07-14T12:30:25.937Z",
+    "user": 2,
+    "is_email_verified": true,
+    "email_token": "3f88ae56-b008-49a3-8569-18e67864549a",
+    "profile_image": "profile/profile_image_n7o2IIw.jpeg"
+  }
+},
+{
+  "model": "accounts.cart",
+  "pk": "73b25e03-87a0-42df-bbac-3409fde1359b",
+  "fields": {
+    "created_at": "2025-07-15T09:11:52.296Z",
+    "updated_at": "2025-07-14T12:53:14.572Z",
+    "user": 2,
+    "is_paid": true
+  }
+},
+{
+  "model": "accounts.cartitems",
+  "pk": "5aa67177-dc6a-4f7a-b8ad-7548539ee4bb",
+  "fields": {
+    "created_at": "2025-07-14T13:49:33.382Z",
+    "updated_at": "2025-07-14T13:49:33.383Z",
+    "cart": "73b25e03-87a0-42df-bbac-3409fde1359b",
+    "product": "23e98b12-9277-4be7-b2a0-2baeb12a7290",
+    "color_varient": null,
+    "size_varient": null,
+    "quantity": 1
+  }
+},
+{
+  "model": "accounts.cartitems",
+  "pk": "7fddb42b-554b-498e-b6c9-8e4d473acf0d",
+  "fields": {
+    "created_at": "2025-07-15T09:11:22.316Z",
+    "updated_at": "2025-07-15T09:11:22.309Z",
+    "cart": "73b25e03-87a0-42df-bbac-3409fde1359b",
+    "product": "2dd430c5-a6e3-4478-b801-deda53a7abdc",
+    "color_varient": null,
+    "size_varient": "3107fe57-aaac-4ffa-b843-fad56edf054b",
+    "quantity": 1
+  }
+},
+{
+  "model": "accounts.cartitems",
+  "pk": "abd96bbe-6ead-49ca-9bb2-53b4ec063a31",
+  "fields": {
+    "created_at": "2025-07-15T09:10:42.612Z",
+    "updated_at": "2025-07-15T09:10:42.605Z",
+    "cart": "73b25e03-87a0-42df-bbac-3409fde1359b",
+    "product": "05c056d3-f9d4-4f2d-bc5e-666376708996",
+    "color_varient": null,
+    "size_varient": "3107fe57-aaac-4ffa-b843-fad56edf054b",
+    "quantity": 1
+  }
+},
+{
+  "model": "accounts.cartitems",
+  "pk": "b15066fd-d943-4ee3-bbec-dade8efb5713",
+  "fields": {
+    "created_at": "2025-07-15T09:10:29.514Z",
+    "updated_at": "2025-07-15T09:10:29.471Z",
+    "cart": "73b25e03-87a0-42df-bbac-3409fde1359b",
+    "product": "596eeeaf-748a-4e5c-9360-d8be60f80955",
+    "color_varient": null,
+    "size_varient": "3107fe57-aaac-4ffa-b843-fad56edf054b",
+    "quantity": 1
+  }
+},
+{
+  "model": "product.category",
+  "pk": "215df3e9-9c55-4245-ab22-202e3e89f6b5",
+  "fields": {
+    "created_at": "2025-07-14T12:57:40.559Z",
+    "updated_at": "2025-07-14T12:57:40.559Z",
+    "category_name": "pants",
+    "slug": "pants",
+    "category_image": "category/9f822e8c-aa17-4955-8e4d-9086d01880ac.jpeg"
+  }
+},
+{
+  "model": "product.category",
+  "pk": "3a1cda18-cb84-4bc0-82ce-39ba15d20cef",
+  "fields": {
+    "created_at": "2025-07-14T12:18:29.298Z",
+    "updated_at": "2025-07-14T12:18:29.298Z",
+    "category_name": "t-shirt",
+    "slug": "t-shirt",
+    "category_image": "category/Men_Two_Tone_Letter_Graphic_Tee_Black_and_White.jpeg"
+  }
+},
+{
+  "model": "product.category",
+  "pk": "90c5bb8e-f937-4262-b829-3239f0678feb",
+  "fields": {
+    "created_at": "2025-07-14T12:58:48.053Z",
+    "updated_at": "2025-07-14T12:58:48.053Z",
+    "category_name": "jacket",
+    "slug": "jacket",
+    "category_image": "category/0a6619da-87de-4edb-b962-2fb48312f2fe_mE8rJga.jpeg"
+  }
+},
+{
+  "model": "product.category",
+  "pk": "bc3fa100-ffba-4208-9073-703865465802",
+  "fields": {
+    "created_at": "2025-07-14T13:00:44.149Z",
+    "updated_at": "2025-07-14T12:57:59.365Z",
+    "category_name": "hoodies",
+    "slug": "hoodies",
+    "category_image": "category/b89c10e3-edbd-4386-883a-a85a87984bd1.jpeg"
+  }
+},
+{
+  "model": "product.category",
+  "pk": "d86c3c44-5721-457f-acbe-99401d857af9",
+  "fields": {
+    "created_at": "2025-07-14T12:58:26.539Z",
+    "updated_at": "2025-07-14T12:58:26.539Z",
+    "category_name": "shorts",
+    "slug": "shorts",
+    "category_image": "category/description-9895483375955_table__font-size_RFWBERR.jpeg"
+  }
+},
+{
+  "model": "product.category",
+  "pk": "db084757-a44d-4856-a8b4-d24c9d4641c7",
+  "fields": {
+    "created_at": "2025-07-14T13:00:13.234Z",
+    "updated_at": "2025-07-14T12:59:07.547Z",
+    "category_name": "shoes",
+    "slug": "shoes",
+    "category_image": "category/94a7d444-6b80-4c40-9abf-4aed567e38a0.jpeg"
+  }
+},
+{
+  "model": "product.size_varient",
+  "pk": "3107fe57-aaac-4ffa-b843-fad56edf054b",
+  "fields": {
+    "created_at": "2025-07-14T12:20:03.129Z",
+    "updated_at": "2025-07-14T12:20:03.129Z",
+    "size_name": "Medium",
+    "price": 100
+  }
+},
+{
+  "model": "product.size_varient",
+  "pk": "7c9f0310-27b5-4010-af75-98417014cf31",
+  "fields": {
+    "created_at": "2025-07-14T12:20:13.106Z",
+    "updated_at": "2025-07-14T12:20:13.106Z",
+    "size_name": "Large",
+    "price": 200
+  }
+},
+{
+  "model": "product.size_varient",
+  "pk": "cf11c4fe-005f-47b3-bb3d-975fd59d350d",
+  "fields": {
+    "created_at": "2025-07-14T12:19:54.725Z",
+    "updated_at": "2025-07-14T12:19:54.725Z",
+    "size_name": "Small",
+    "price": 0
+  }
+},
+{
+  "model": "product.product",
+  "pk": "0314f3fc-7520-45b1-bdef-cc6ccd09de30",
+  "fields": {
+    "created_at": "2025-07-15T03:13:20.695Z",
+    "updated_at": "2025-07-15T03:13:20.695Z",
+    "product_name": "Vintage Washed Oversized Hoodie",
+    "category": "bc3fa100-ffba-4208-9073-703865465802",
+    "price": 2000,
+    "slug": "vintage-washed-oversized-hoodie",
+    "product_description": "Achieve a relaxed, street-ready look with this oversized hoodie in a washed black finish. Its comfortable fit and vintage-inspired texture make it a versatile piece for effortless style and warmth.",
+    "short_desc": "Achieve a relaxed, street-ready look with this ...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "05c056d3-f9d4-4f2d-bc5e-666376708996",
+  "fields": {
+    "created_at": "2025-07-14T13:04:18.326Z",
+    "updated_at": "2025-07-14T13:04:18.326Z",
+    "product_name": "White & Black \"Fashion Sport\"  Shose",
+    "category": "db084757-a44d-4856-a8b4-d24c9d4641c7",
+    "price": 8500,
+    "slug": "white-black-fashion-sport-shose",
+    "product_description": "Power your steps with these dynamic \"Fashion Sport\" athletic trainers. Featuring a crisp white base, bold black overlays with an eye-catching orange stripe, and a uniquely sculpted outsole, these sneakers combine modern aesthetics with performance-inspired design. Perfect for running, training, or adding a sporty flair to your casual attire.",
+    "short_desc": "Power your steps with these dynamic \"Fashion ....",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "0741820e-915d-4bc1-90f1-27e2068d4b29",
+  "fields": {
+    "created_at": "2025-07-14T13:41:08.559Z",
+    "updated_at": "2025-07-14T13:41:08.559Z",
+    "product_name": "Men's Minimalist Hooded Windbreaker",
+    "category": "90c5bb8e-f937-4262-b829-3239f0678feb",
+    "price": 1900,
+    "slug": "mens-minimalist-hooded-windbreaker",
+    "product_description": "Stay dry and comfortable with this sleek black hooded windbreaker for men. Its minimalist design offers practical protection against light rain and wind. Features include a full zip closure, a secure zippered pocket on the left arm, and two discreet chest pockets, making it a functional choice for transitional weather.",
+    "short_desc": "Stay dry and comfortable with this sleek black ...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "08ea1380-49b3-44b3-886c-3a683d736029",
+  "fields": {
+    "created_at": "2025-07-14T13:13:24.617Z",
+    "updated_at": "2025-07-14T13:13:24.617Z",
+    "product_name": "Men's Classic Black Crew Neck T-Shirt",
+    "category": "3a1cda18-cb84-4bc0-82ce-39ba15d20cef",
+    "price": 1700,
+    "slug": "mens-classic-black-crew-neck-t-shirt",
+    "product_description": "An essential wardrobe staple, this men's classic black t-shirt features a comfortable crew neck and short sleeves. Its plain, versatile design makes it perfect for everyday casual wear, layering, or as a blank canvas for custom prints and branding.",
+    "short_desc": "An essential wardrobe staple, this men's classi...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "0f2c52ff-4172-42e9-8594-fcf781d3cab4",
+  "fields": {
+    "created_at": "2025-07-14T13:55:49.738Z",
+    "updated_at": "2025-07-14T13:55:49.738Z",
+    "product_name": ": Men's Urban Drawstring Cargo Pants",
+    "category": "215df3e9-9c55-4245-ab22-202e3e89f6b5",
+    "price": 2300,
+    "slug": "mens-urban-drawstring-cargo-pants",
+    "product_description": "Discover urban comfort with these loose-fit men's cargo pants. Designed with a drawstring waist for an adjustable fit and elasticated cuffs, they offer a contemporary and relaxed silhouette. The practical cargo pockets on the sides provide ample storage, making them ideal for everyday adventures. Pair them with your favorite sneakers for a casual yet trendy streetwear ensemble.",
+    "short_desc": "Discover urban comfort with these loose-fit me....",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "1401b0ac-a957-4956-835c-a33b6571a698",
+  "fields": {
+    "created_at": "2025-07-15T03:00:34.803Z",
+    "updated_at": "2025-07-15T03:00:34.803Z",
+    "product_name": "Two-Tone Split Face Graphic Zip Hoodie",
+    "category": "bc3fa100-ffba-4208-9073-703865465802",
+    "price": 3700,
+    "slug": "two-tone-split-face-graphic-zip-hoodie",
+    "product_description": "Unleash your edgy side with this striking two-tone zip-up hoodie featuring a bold, cartoon-graphic split-face design. One side boasts a neutral beige with a black graphic, while the other contrasts sharply in black with a white graphic. Made for a comfortable fit, it's perfect for making a statement in your casual wardrobe.",
+    "short_desc": "Unleash your edgy side with this striking two-t...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "15543c02-6b79-482e-a527-d7ee3a768187",
+  "fields": {
+    "created_at": "2025-07-15T02:42:22.873Z",
+    "updated_at": "2025-07-15T02:42:22.873Z",
+    "product_name": "Men's Plush Sherpa-Lined Raglan Hoodie",
+    "category": "90c5bb8e-f937-4262-b829-3239f0678feb",
+    "price": 3100,
+    "slug": "mens-plush-sherpa-lined-raglan-hoodie",
+    "product_description": "Experience ultimate comfort and warmth in this men's hoodie, designed with a plush sherpa lining throughout the body and hood. The stylish raglan sleeves in contrasting black add a modern touch to the classic tan body. Complete with a full zip closure and front pockets, it's perfect for casual, cozy wear.",
+    "short_desc": "Experience ultimate comfort and warmth in this men",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "198916f4-e7b1-4671-b034-9831dd9a541a",
+  "fields": {
+    "created_at": "2025-07-15T03:29:28.592Z",
+    "updated_at": "2025-07-15T03:29:28.592Z",
+    "product_name": "Classic Black Fleece Jogger Sweatpants",
+    "category": "215df3e9-9c55-4245-ab22-202e3e89f6b5",
+    "price": 1900,
+    "slug": "classic-black-fleece-jogger-sweatpants",
+    "product_description": "Stay cozy, look sharp, and move freely in these classic black fleece jogger sweatpants. Made from a soft and warm fleece fabric, they are perfect for relaxing at home, running errands, or casual outings. The comfortable elastic waistband with an adjustable drawstring ensures a perfect fit, while the ribbed cuffs at the ankles provide a clean, tapered look.",
+    "short_desc": "Stay cozy, look sharp, and move freely in these...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "19c806f9-c2d5-4cb1-8545-353670c6dbf6",
+  "fields": {
+    "created_at": "2025-07-14T13:26:34.136Z",
+    "updated_at": "2025-07-14T13:26:34.136Z",
+    "product_name": "Men's Diamond Quilted Insulated Bomber",
+    "category": "90c5bb8e-f937-4262-b829-3239f0678feb",
+    "price": 2800,
+    "slug": "mens-diamond-quilted-insulated-bomber",
+    "product_description": "Conquer the cold in style with this men's black bomber jacket. Featuring a sophisticated diamond-quilted exterior and a thick, plush thermal lining for superior warmth, this jacket is designed for comfort and protection in chilly weather. It includes a full-zip front and zippered side pockets for convenience.",
+    "short_desc": "Conquer the cold in style with this men's blac...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "1b172fd4-2048-4912-aaf2-17660994c404",
+  "fields": {
+    "created_at": "2025-07-14T13:47:12.878Z",
+    "updated_at": "2025-07-14T13:47:12.878Z",
+    "product_name": "Men's 2-in-1 Drawstring shorts",
+    "category": "d86c3c44-5721-457f-acbe-99401d857af9",
+    "price": 1600,
+    "slug": "mens-2-in-1-drawstring-shorts",
+    "product_description": "These black 2-in-1 fitness shorts from Manfinity feature an outer loose-fit short and an integrated inner compression layer, providing both coverage and support. They are designed with an elastic drawstring waist for an adjustable fit and reflective white stripe accents on the sides, making them ideal for running, gym workouts, or other athletic",
+    "short_desc": "These black 2-in-1 fitness shorts from Manfi....",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "1fa05453-6205-4829-bb34-72d62f01da91",
+  "fields": {
+    "created_at": "2025-07-15T02:30:34.543Z",
+    "updated_at": "2025-07-15T02:30:34.543Z",
+    "product_name": "Marble Print \"DREAM\" Graphic Hoodie",
+    "category": "bc3fa100-ffba-4208-9073-703865465802",
+    "price": 2200,
+    "slug": "marble-print-dream-graphic-hoodie",
+    "product_description": "Stand out with this unique white hoodie, adorned with a black marble-effect print and a bold \"DREAM\" graphic across the chest. Its loose fit and front pocket provide comfort, while the artistic design adds a touch of individuality to your look.",
+    "short_desc": "Stand out with this unique white hoodie, adorne...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "201d5a86-5e1d-467d-8983-5aa7f6e265b2",
+  "fields": {
+    "created_at": "2025-07-14T13:07:02.483Z",
+    "updated_at": "2025-07-14T13:07:02.483Z",
+    "product_name": "Men's Sporty Colorblock Track Jacket",
+    "category": "90c5bb8e-f937-4262-b829-3239f0678feb",
+    "price": 2000,
+    "slug": "mens-sporty-colorblock-track-jacket",
+    "product_description": "Embrace a sporty aesthetic with this men's full-zip track jacket. Its striking colorblock design combines a black body with contrasting grey sleeves, accented by black stripes. The comfortable stand-up collar and ribbed cuffs and hem make it an ideal choice for casual wear or athletic layering.",
+    "short_desc": "Embrace a sporty aesthetic with this men's full...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "23e98b12-9277-4be7-b2a0-2baeb12a7290",
+  "fields": {
+    "created_at": "2025-07-14T13:42:27.662Z",
+    "updated_at": "2025-07-14T13:42:27.662Z",
+    "product_name": "Premium Black Multi-Pocket Cargo Pants",
+    "category": "215df3e9-9c55-4245-ab22-202e3e89f6b5",
+    "price": 1700,
+    "slug": "premium-black-multi-pocket-cargo-pants",
+    "product_description": "Elevate your casual wardrobe with these high-end black cargo sweatpants. Crafted from comfortable fleece material, these pants feature an adjustable drawstring waist and ribbed cuffs for a snug fit. Multiple spacious cargo pockets with unique zipper details provide both utility and a distinctive aesthetic. Perfect for a fashion-forward, relaxed look, offering both comfort and an edgy style statement.",
+    "short_desc": "Elevate your casual wardrobe with these high-end..",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "2af5a505-610c-429d-8bf4-54690fb7a024",
+  "fields": {
+    "created_at": "2025-07-14T13:21:08.734Z",
+    "updated_at": "2025-07-14T13:21:08.734Z",
+    "product_name": "Nike Men's Grey Fleece Sportswear Shorts",
+    "category": "d86c3c44-5721-457f-acbe-99401d857af9",
+    "price": 1400,
+    "slug": "nike-mens-grey-fleece-sportswear-shorts",
+    "product_description": "Classic grey fleece shorts by Nike, showcasing the iconic white Swoosh logo prominently on the left leg. These comfortable shorts have an elastic waistband with an adjustable drawstring, ideal for athletic pursuits or relaxed daily wear.",
+    "short_desc": "Classic grey fleece shorts by Nike, showcasing t..",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "2b32f0a2-dfdc-4296-9a3a-e689ec1272b6",
+  "fields": {
+    "created_at": "2025-07-14T13:20:05.177Z",
+    "updated_at": "2025-07-14T13:20:05.177Z",
+    "product_name": "Air Jordan 4 Retro \"Thunder\" Sneakers",
+    "category": "db084757-a44d-4856-a8b4-d24c9d4641c7",
+    "price": 9300,
+    "slug": "air-jordan-4-retro-thunder-sneakers",
+    "product_description": "Own a piece of sneaker history with these pristine 2023 Air Jordan 4 Retro \"Thunder\" edition sneakers, available in Men's US Size 13. These highly coveted kicks feature a sleek black nubuck upper contrasted with vibrant tour yellow accents on the mesh side panels, eyelets, and midsole, delivering a bold and unmistakable athletic appeal. Presented with original boxing.",
+    "short_desc": "Own a piece of sneaker history with these prist...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "2c8cb4af-fac3-4a66-ae9c-3bf09df7689a",
+  "fields": {
+    "created_at": "2025-07-15T02:33:47.850Z",
+    "updated_at": "2025-07-15T02:33:47.850Z",
+    "product_name": "Men's Comfortable Brown Cargo Pants",
+    "category": "215df3e9-9c55-4245-ab22-202e3e89f6b5",
+    "price": 1900,
+    "slug": "mens-comfortable-brown-cargo-pants",
+    "product_description": "Experience ultimate comfort with these versatile men's brown cargo joggers. Made from a soft and comfortable fabric, they feature an elasticated drawstring waistband for a perfect fit and elastic cuffs for a modern jogger style. Practical cargo pockets add utility and a stylish detail. These pants are an excellent choice for casual wear, ensuring comfort and a contemporary look.",
+    "short_desc": "Experience ultimate comfort with these versatil...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "2d8ac411-0bc7-4656-8eb3-9f57470de9fe",
+  "fields": {
+    "created_at": "2025-07-14T13:48:43.590Z",
+    "updated_at": "2025-07-14T13:48:43.590Z",
+    "product_name": "Men's Black T-Shirt with Red Rose",
+    "category": "3a1cda18-cb84-4bc0-82ce-39ba15d20cef",
+    "price": 1900,
+    "slug": "mens-black-t-shirt-with-red-rose",
+    "product_description": "Make a statement with this men's black t-shirt featuring a striking graphic of a red rose seemingly falling from above, depicted with delicate white outlines of its stem and leaves. Below the rose, a poetic slogan is printed in white text, adding a touch of romance and depth to this casual tee.",
+    "short_desc": "Make a statement with this men's black ...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "2dd430c5-a6e3-4478-b801-deda53a7abdc",
+  "fields": {
+    "created_at": "2025-07-14T13:54:24.994Z",
+    "updated_at": "2025-07-14T13:54:24.994Z",
+    "product_name": "Men's Distressed Black Wash Denim Jacke",
+    "category": "90c5bb8e-f937-4262-b829-3239f0678feb",
+    "price": 2700,
+    "slug": "mens-distressed-black-wash-denim-jacke",
+    "product_description": ":Add an edge to your everyday look with this men's black denim jacket. Crafted from a durable blend of cotton and polyester, it features a rugged distressed wash with intentional rips on the sleeves and collar for a worn-in, vintage feel. Classic button-front closure and flap chest pockets complete the design.",
+    "short_desc": "Add an edge to your everyday look with this me....",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "2dd971ce-49d3-42fd-b425-ba247b765d37",
+  "fields": {
+    "created_at": "2025-07-14T13:25:17.244Z",
+    "updated_at": "2025-07-14T13:25:17.244Z",
+    "product_name": "Layered Contrast Sleeve Hoodie",
+    "category": "bc3fa100-ffba-4208-9073-703865465802",
+    "price": 1900,
+    "slug": "layered-contrast-sleeve-hoodie",
+    "product_description": "This black pullover hoodie gives the illusion of layered styling with its contrasting grey long sleeves. Featuring subtle \"GURUNVANI\" text, it's designed for a modern, comfortable fit, perfect for adding depth to your casual outfits.",
+    "short_desc": "This black pullover hoodie gives the illusion ....",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "33a9adce-cf0e-481b-9bb3-fc27af871302",
+  "fields": {
+    "created_at": "2025-07-14T13:35:07.819Z",
+    "updated_at": "2025-07-14T13:35:07.819Z",
+    "product_name": "Air Jordan 4 Retro \"Pine Green\"",
+    "category": "db084757-a44d-4856-a8b4-d24c9d4641c7",
+    "price": 9999,
+    "slug": "air-jordan-4-retro-pine-green",
+    "product_description": "Embrace iconic style with these striking basketball shoes, inspired by the classic Air Jordan 4 \"Pine Green\" colorway. They feature a crisp white leather upper, vibrant emerald green accents on the eyelets, midsole, and heel, and a touch of grey suede on the toe. Perfect for sneaker enthusiasts looking for a fresh and bold addition to their",
+    "short_desc": "Embrace iconic style with these striking bas....",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "399a360a-1437-4321-94f2-f436132158d2",
+  "fields": {
+    "created_at": "2025-07-14T13:37:45.218Z",
+    "updated_at": "2025-07-14T13:37:45.218Z",
+    "product_name": "Men's Color Block T-Shirt",
+    "category": "3a1cda18-cb84-4bc0-82ce-39ba15d20cef",
+    "price": 1700,
+    "slug": "mens-color-block-t-shirt",
+    "product_description": "This men's short-sleeve t-shirt features a sleek horizontal color block design in black, dark grey, and white. A small, elegant white bird silhouette is subtly placed on the black upper section, adding a minimalist and refined touch to this casual crewneck tee.",
+    "short_desc": "This men's short-sleeve t-shirt features a slee...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "3dc42a27-6e71-49aa-80ca-5d106981d328",
+  "fields": {
+    "created_at": "2025-07-15T02:47:08.570Z",
+    "updated_at": "2025-07-15T02:47:08.570Z",
+    "product_name": "Black & White Chunky Lifestyle Sneakers",
+    "category": "db084757-a44d-4856-a8b4-d24c9d4641c7",
+    "price": 6200,
+    "slug": "black-white-chunky-lifestyle-sneakers",
+    "product_description": "Make a statement with these trendy lifestyle sneakers, boasting a multi-layered black, white, and grey design complemented by vibrant teal details. The prominent chunky sole with geometric patterns provides both comfort and a fashion-forward look, making them ideal for urban streetwear and active casual outfits.",
+    "short_desc": "Make a statement with these trendy lifestyle sn...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "41d0e214-7073-4783-9a5d-4f5083d25c2e",
+  "fields": {
+    "created_at": "2025-07-15T02:41:16.094Z",
+    "updated_at": "2025-07-15T02:41:16.094Z",
+    "product_name": "Monarch Split Colorblock Sweatshirt",
+    "category": "bc3fa100-ffba-4208-9073-703865465802",
+    "price": 2900,
+    "slug": "monarch-split-colorblock-sweatshirt",
+    "product_description": "Make a bold statement with this black and white color-block sweatshirt. One half is solid black, while the other is crisp white, accented by a stylized \"K\" with a crown graphic. The neckline features subtle text detail, adding to its unique charm.",
+    "short_desc": "Make a bold statement with this black and white..",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "43ae4709-8af4-4e76-97d4-b2a96c3a232c",
+  "fields": {
+    "created_at": "2025-07-15T03:19:07.934Z",
+    "updated_at": "2025-07-15T03:19:07.934Z",
+    "product_name": "Men's Light Wash Denim Cargo Pants",
+    "category": "215df3e9-9c55-4245-ab22-202e3e89f6b5",
+    "price": 2000,
+    "slug": "mens-light-wash-denim-cargo-pants",
+    "product_description": "Elevate your casual style with these light-wash denim cargo joggers. Perfect for spring and summer, these pants offer the classic look of denim with the modern comfort of a jogger. They feature an elasticated drawstring waistband for a custom fit and elastic cuffs at the ankles to create a sleek, contemporary silhouette. The subtle cargo-style pockets add a touch of utility and street-style flair. Pair them with your favorite sneakers for an effortlessly cool look.",
+    "short_desc": "Elevate your casual style with these light-wash..",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "48279a45-4663-4118-8e51-ab20801dafc2",
+  "fields": {
+    "created_at": "2025-07-14T13:22:28.442Z",
+    "updated_at": "2025-07-14T13:22:28.442Z",
+    "product_name": "Men's Black \"Butterfly Splash\" Tshirt",
+    "category": "3a1cda18-cb84-4bc0-82ce-39ba15d20cef",
+    "price": 1700,
+    "slug": "mens-black-butterfly-splash-tshirt",
+    "product_description": "This men's black t-shirt is a canvas of contemporary art, featuring dynamic white splash-like patterns that create a sense of movement. Delicately integrated within the splashes are several white butterfly motifs, along with the word \"Butterfly\" printed vertically on the shoulder. This tee is perfect for a unique and expressive casual look.",
+    "short_desc": "This men's black t-shirt is a canvas of contemp...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "4ea2fe11-dafa-4810-82cf-4164642deced",
+  "fields": {
+    "created_at": "2025-07-14T13:17:59.064Z",
+    "updated_at": "2025-07-14T13:17:59.064Z",
+    "product_name": "Men's Oversized Black Baggy Cargo Pants",
+    "category": "215df3e9-9c55-4245-ab22-202e3e89f6b5",
+    "price": 2500,
+    "slug": "mens-oversized-black-baggy-cargo-pants",
+    "product_description": "Make a statement with these men's oversized black baggy cargo pants. Designed for ultimate comfort and a relaxed, street-style aesthetic, they feature an elasticated drawstring waist and generous cargo pockets. The wide-leg, loose fit provides ample freedom of movement, making them perfect for a bold and comfortable casual look.",
+    "short_desc": "Make a statement with these men's oversized bl...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "4ef420d8-4798-4b4c-82cf-42b25c58012a",
+  "fields": {
+    "created_at": "2025-07-15T03:17:10.148Z",
+    "updated_at": "2025-07-15T03:17:10.148Z",
+    "product_name": "Men's Fleece-Lined Military-Style Jacket",
+    "category": "90c5bb8e-f937-4262-b829-3239f0678feb",
+    "price": 3100,
+    "slug": "mens-fleece-lined-military-style-jacket",
+    "product_description": "A durable and rugged jacket designed to keep you warm and stylish. This military-inspired utility jacket in khaki features a plush fleece lining for superior warmth. It is equipped with a high collar, a full-zip front with a snap-button placket, and multiple functional pockets on the chest and sides, offering both style and utility for colder weather.",
+    "short_desc": "A durable and rugged jacket designed to keep you..",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "4ff10691-3473-4c2e-a034-6454075d90d6",
+  "fields": {
+    "created_at": "2025-07-14T13:23:06.926Z",
+    "updated_at": "2025-07-14T13:16:54.684Z",
+    "product_name": "Men's Sherpa-Lined Overshirt Jacket",
+    "category": "90c5bb8e-f937-4262-b829-3239f0678feb",
+    "price": 2700,
+    "slug": "mens-sherpa-lined-overshirt-jacket",
+    "product_description": "This versatile men's overshirt-style jacket is perfect for adding warmth and texture to your outfit. The black waffle-knit exterior is complemented by a soft, plush sherpa lining, including in the hood, ensuring cozy comfort. It features a button-front closure and a single chest pocket.",
+    "short_desc": "This versatile men's overshirt-style jacket is,...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "502a2b58-2985-47dc-8032-f4ef0d7dcf56",
+  "fields": {
+    "created_at": "2025-07-14T13:27:41.700Z",
+    "updated_at": "2025-07-14T13:27:41.700Z",
+    "product_name": "Men's 2-in-1 Quick-Dry Running Shorts",
+    "category": "d86c3c44-5721-457f-acbe-99401d857af9",
+    "price": 1600,
+    "slug": "mens-2-in-1-quick-dry-running-shorts",
+    "product_description": "High-performance black 2-in-1 running shorts designed for ultimate comfort and quick-drying capabilities. The outer short features stylish white perforated details on the sides, revealing an integrated compression layer beneath, ideal for intense workouts.signed for ultimate comfort and quick-drying capabilities. The outer short features stylish white perforated details on the sides, revealing an integrated compression layer beneath, ideal for intense workouts.",
+    "short_desc": "High-performance black 2-in-1 running shorts ....",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "542242c0-1ef3-4096-960e-5559b8db8d75",
+  "fields": {
+    "created_at": "2025-07-14T13:44:06.720Z",
+    "updated_at": "2025-07-14T13:44:06.720Z",
+    "product_name": "Lacoste Grey Canvas Oxford Shoes",
+    "category": "db084757-a44d-4856-a8b4-d24c9d4641c7",
+    "price": 2100,
+    "slug": "lacoste-grey-canvas-oxford-shoes",
+    "product_description": "Refine your casual wardrobe with these elegant grey canvas oxford shoes from Lacoste. Designed for relaxed sophistication, they feature a classic lace-up front, subtle stitching details, and a contrasting white sole. Ideal for pairing with chinos or jeans, these shoes offer lightweight comfort and a smart, laid-back aesthetic.",
+    "short_desc": "Refine your casual wardrobe with these el...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "55c81916-426e-48e9-a907-139cfc0886f7",
+  "fields": {
+    "created_at": "2025-07-15T03:33:05.457Z",
+    "updated_at": "2025-07-15T03:33:05.457Z",
+    "product_name": "Men's Grey T-shirt with Asian Ink",
+    "category": "3a1cda18-cb84-4bc0-82ce-39ba15d20cef",
+    "price": 1700,
+    "slug": "mens-grey-t-shirt-with-asian-ink",
+    "product_description": "This men's grey t-shirt is a work of art, featuring a traditional ink wash style graphic. The print depicts elegant black tree branches on the upper left and bamboo stalks on the lower right, creating a balanced and serene aesthetic. The shirt offers a sophisticated and unique take on a classic casual tee.",
+    "short_desc": "This men's grey t-shirt is a work of art, feat...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "57025d33-0210-4349-a5e7-fc796b34c79f",
+  "fields": {
+    "created_at": "2025-07-14T14:00:42.889Z",
+    "updated_at": "2025-07-14T14:00:42.889Z",
+    "product_name": "Men's Dark Grey Cityscape Tshirt",
+    "category": "3a1cda18-cb84-4bc0-82ce-39ba15d20cef",
+    "price": 1900,
+    "slug": "mens-dark-grey-cityscape-tshirt",
+    "product_description": "This casual dark grey men's t-shirt blends urban scenery with an uplifting message. The lower half features an intricate outline graphic of a city skyline, while the upper chest displays the bold, textured text \"GROUND LIFE BEGINS.\" This tee offers a stylish nod to urban living and fresh starts.",
+    "short_desc": "This casual dark grey men's t-shirt blends urba...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "596eeeaf-748a-4e5c-9360-d8be60f80955",
+  "fields": {
+    "created_at": "2025-07-14T12:21:32.387Z",
+    "updated_at": "2025-07-14T12:21:32.387Z",
+    "product_name": "Men's  T-Shirt",
+    "category": "3a1cda18-cb84-4bc0-82ce-39ba15d20cef",
+    "price": 1400,
+    "slug": "mens-t-shirt",
+    "product_description": "This stylish men's t-shirt features a unique color block design, splitting charcoal grey and black. A prominent white floral graphic, resembling roses emerging from a pocket, adds a touch of artistic flair. Made for casual wear, it offers a contemporary and eye-catching look.",
+    "short_desc": "This stylish men's t-shirt features a unique color",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "5c49a434-76eb-4236-9143-7da9c231bd02",
+  "fields": {
+    "created_at": "2025-07-14T13:58:46.279Z",
+    "updated_at": "2025-07-14T13:58:46.279Z",
+    "product_name": "Men's Sporty Color Block Shorts",
+    "category": "d86c3c44-5721-457f-acbe-99401d857af9",
+    "price": 1500,
+    "slug": "mens-sporty-color-block-shorts",
+    "product_description": "Dynamic men's shorts featuring a modern color block design with a black body, grey side panels, and sharp white accents. These athletic shorts are designed with a comfortable drawstring waist and convenient zippered side pockets, making them suitable for active wear.",
+    "short_desc": "Dynamic men's shorts featuring a mod...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "63685666-0de2-4e42-bb36-f442b30595fa",
+  "fields": {
+    "created_at": "2025-07-15T02:54:10.275Z",
+    "updated_at": "2025-07-15T02:54:10.275Z",
+    "product_name": "Men's Classic Khaki Cotton Cargo Pants",
+    "category": "215df3e9-9c55-4245-ab22-202e3e89f6b5",
+    "price": 2300,
+    "slug": "mens-classic-khaki-cotton-cargo-pants",
+    "product_description": "A timeless staple for spring and autumn, these men's khaki cargo pants are crafted from 100% cotton for exceptional comfort and durability. They feature a traditional relaxed fit with numerous functional cargo pockets on the sides and back, complete with button closures for secure storage. Perfect for outdoor activities, casual wear, or a rugged everyday style that combines practicality with classic appeal.",
+    "short_desc": "A timeless staple for spring and autumn, these m..",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "64e5a532-697e-411b-b405-6a19d64d6ba4",
+  "fields": {
+    "created_at": "2025-07-15T03:02:01.774Z",
+    "updated_at": "2025-07-15T03:02:01.774Z",
+    "product_name": "Men's Layered Distressed Denim Jacket",
+    "category": "90c5bb8e-f937-4262-b829-3239f0678feb",
+    "price": 3400,
+    "slug": "mens-layered-distressed-denim-jacket",
+    "product_description": "Achieve an effortlessly cool, layered aesthetic with this men's light wash denim jacket that cleverly integrates a white fleece hoodie. The jacket features distressed accents for a trendy worn look, button closures, and chest pockets, offering a versatile and modern street-style piece.",
+    "short_desc": "Achieve an effortlessly cool, layered aesthetic..",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "6b324d23-2642-428f-883e-62611e76aad4",
+  "fields": {
+    "created_at": "2025-07-15T02:35:39.204Z",
+    "updated_at": "2025-07-15T02:35:39.204Z",
+    "product_name": "Dynamic Black & White Chunky Sole Shose",
+    "category": "db084757-a44d-4856-a8b4-d24c9d4641c7",
+    "price": 6500,
+    "slug": "dynamic-black-white-chunky-sole-shose",
+    "product_description": "Make a statement with these trendy lifestyle sneakers, boasting a multi-layered black, white, and grey design complemented by vibrant teal details. The prominent chunky sole with geometric patterns provides both comfort and a fashion-forward look, making them ideal for urban streetwear and active casual outfits.",
+    "short_desc": "Make a statement with these trendy lifestyle s....",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "829ac169-5609-42b3-80d9-9b0a10e6455e",
+  "fields": {
+    "created_at": "2025-07-14T13:53:08.112Z",
+    "updated_at": "2025-07-14T13:53:08.112Z",
+    "product_name": "Layered Adventure Graphic Hoodie",
+    "category": "bc3fa100-ffba-4208-9073-703865465802",
+    "price": 2200,
+    "slug": "layered-adventure-graphic-hoodie",
+    "product_description": "Experience a modern twist on the classic hoodie with this 2-in-1 layered design. The white outer layer features a minimalist \"ADVENTURE\" slogan print and a convenient front pocket, while the contrasting black inner sleeves give the illusion of a layered look. Perfect for those seeking unique style and comfort.",
+    "short_desc": "Experience a modern twist on the classic hoodi...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "844e6837-05f5-4002-9423-353875a37c54",
+  "fields": {
+    "created_at": "2025-07-14T13:30:51.539Z",
+    "updated_at": "2025-07-14T13:30:51.539Z",
+    "product_name": "Warm Block Color Zip-Up Hoodie",
+    "category": "bc3fa100-ffba-4208-9073-703865465802",
+    "price": 2700,
+    "slug": "warm-block-color-zip-up-hoodie",
+    "product_description": "Stay cozy and stylish with this black zip-up hoodie featuring a warm, contrasting beige hood lining. The simple design and comfortable fit make it an ideal choice for cooler weather or casual layering.",
+    "short_desc": "Stay cozy and stylish with this black zip-up ...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "84b32a63-6f7c-407d-9fbe-471544f79cba",
+  "fields": {
+    "created_at": "2025-07-15T03:22:37.392Z",
+    "updated_at": "2025-07-15T03:22:37.392Z",
+    "product_name": "Men's 2-in-1 Athletic Shorts with Liner",
+    "category": "d86c3c44-5721-457f-acbe-99401d857af9",
+    "price": 1500,
+    "slug": "mens-2-in-1-athletic-shorts-with-liner",
+    "product_description": "These are black 2-in-1 sports shorts designed for men, featuring a loose outer layer for flexibility and an integrated inner compression short for added support. The shorts have an elastic waistband with a drawstring and include the branding \"KEFATRAINING\" on the inner layer, making them suitable for running, gym sessions, and other athletic activities.",
+    "short_desc": "These are black 2-in-1 sports shorts designed fo..",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "85c2831c-d8e2-4e2f-aaac-77467a6a2302",
+  "fields": {
+    "created_at": "2025-07-15T03:04:58.104Z",
+    "updated_at": "2025-07-15T03:04:58.104Z",
+    "product_name": "Classic White & Blue Casual Top Sneakers",
+    "category": "db084757-a44d-4856-a8b4-d24c9d4641c7",
+    "price": 2600,
+    "slug": "classic-white-blue-casual-top-sneakers",
+    "product_description": "Discover timeless style with these men's classic white low-top sneakers, accented with a bold navy blue stripe design. Featuring a durable upper and a contrasting light brown sole, these lace-up shoes offer a comfortable fit and a versatile look that pairs effortlessly with jeans, chinos, or shorts for a smart-casual ensemble.",
+    "short_desc": "Discover timeless style with these men's classi..",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "88093aa1-33c9-4470-bc10-1efa2b1d9b5d",
+  "fields": {
+    "created_at": "2025-07-15T03:14:12.177Z",
+    "updated_at": "2025-07-15T02:51:55.435Z",
+    "product_name": "Vintage Washed Oversized Hoodies",
+    "category": "bc3fa100-ffba-4208-9073-703865465802",
+    "price": 2100,
+    "slug": "vintage-washed-oversized-hoodies",
+    "product_description": "Achieve a relaxed, street-ready look with this oversized hoodie in a washed black finish. Its comfortable fit and vintage-inspired texture make it a versatile piece for effortless style and warmth.",
+    "short_desc": "Achieve a relaxed, street-ready look with this ...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "8de25a58-5abb-49ac-a5e8-5b0f3f318d12",
+  "fields": {
+    "created_at": "2025-07-15T03:03:25.753Z",
+    "updated_at": "2025-07-15T03:03:25.753Z",
+    "product_name": ": Men's Slim Fit Stretch Ulrathin Pants",
+    "category": "215df3e9-9c55-4245-ab22-202e3e89f6b5",
+    "price": 2100,
+    "slug": "mens-slim-fit-stretch-ulrathin-pants",
+    "product_description": "Stay cool and comfortable this summer with our stylish and modern men's trousers. Crafted from an innovative stretch and ultrathin fabric, these pants offer exceptional breathability and flexibility. Featuring a straight-leg model, they provide a sleek and contemporary silhouette perfect for various occasions. Available in classic colors like black, grey, and khaki, they are designed to fit individuals weighing 50-95KG and standing 160-180CM tall. Elevate your warm-weather wardrobe with these essential, versatile pants.",
+    "short_desc": "Stay cool and comfortable this summer with our...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "9190b417-f088-4df4-b096-9ea4c4b3e5d8",
+  "fields": {
+    "created_at": "2025-07-14T13:36:08.108Z",
+    "updated_at": "2025-07-14T13:36:08.108Z",
+    "product_name": "Men's Essential Black Drawstring Shorts",
+    "category": "d86c3c44-5721-457f-acbe-99401d857af9",
+    "price": 1500,
+    "slug": "mens-essential-black-drawstring-shorts",
+    "product_description": "A versatile pair of black men's shorts featuring a comfortable elastic waistband with a contrasting white drawstring. Designed with simple side pockets, these basic shorts are perfect for casual wear, lounging, or light activities.",
+    "short_desc": "A versatile pair of black men's shorts featur...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "91dd9862-4d58-483a-9cf5-3f908a262d44",
+  "fields": {
+    "created_at": "2025-07-14T13:39:53.505Z",
+    "updated_at": "2025-07-14T13:39:53.505Z",
+    "product_name": "\"No Money But Love\" Graphic Hoodie",
+    "category": "bc3fa100-ffba-4208-9073-703865465802",
+    "price": 2400,
+    "slug": "no-money-but-love-graphic-hoodie",
+    "product_description": "Express yourself with this unique beige hoodie featuring a powerful back graphic. The design includes roses, money, a butterfly, and the impactful phrase \"NO MONEY BUT LOVE\". This hoodie combines comfort with a meaningful artistic statement.",
+    "short_desc": "Express yourself with this unique beige hoodie ...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "978a5445-dcac-4f29-b960-dfcd9f9b6f82",
+  "fields": {
+    "created_at": "2025-07-15T02:49:53.627Z",
+    "updated_at": "2025-07-15T02:49:53.627Z",
+    "product_name": "Men's Dark Grey Urban Streetwear Tshirt",
+    "category": "3a1cda18-cb84-4bc0-82ce-39ba15d20cef",
+    "price": 1850,
+    "slug": "mens-dark-grey-urban-streetwear-tshirt",
+    "product_description": "Embrace urban streetwear with this men's dark grey t-shirt, covered in a vibrant and abstract array of slogans, figures, and text. The design includes motivational phrases and bold graphics in various colors, creating a dynamic and expressive statement piece perfect for casual, contemporary fashion.",
+    "short_desc": "Embrace urban streetwear with this men's dark....",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "9d26324c-d2db-476c-9415-b30e0d17753f",
+  "fields": {
+    "created_at": "2025-07-15T03:27:50.940Z",
+    "updated_at": "2025-07-15T03:27:50.940Z",
+    "product_name": "Men's Multi-Color Lightweight  Jacket",
+    "category": "90c5bb8e-f937-4262-b829-3239f0678feb",
+    "price": 2700,
+    "slug": "mens-multi-color-lightweight-jacket",
+    "product_description": "This lightweight men's bomber jacket features a modern and bold color block design with sections of red, grey, and black. It has a full-zip front, a sleek stand-up collar, and ribbed cuffs and hem for a comfortable, sporty fit. The two side pockets offer practicality, making it a great choice for casual wear.",
+    "short_desc": "This lightweight men's bomber jacket features a..",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "9dbbc8af-b581-4f14-b9a9-b01380604144",
+  "fields": {
+    "created_at": "2025-07-15T02:39:21.930Z",
+    "updated_at": "2025-07-15T02:39:21.930Z",
+    "product_name": ": Men's Tan T-Shirt with Asian Landscape",
+    "category": "3a1cda18-cb84-4bc0-82ce-39ba15d20cef",
+    "price": 1900,
+    "slug": "mens-tan-t-shirt-with-asian-landscape",
+    "product_description": "Discover cultural elegance with this men's tan short-sleeve t-shirt featuring an exquisite graphic inspired by traditional Asian landscape painting. The design depicts mountains, pine trees, and red-crowned cranes in flight, accompanied by a related slogan, creating a visually rich and serene aesthetic.",
+    "short_desc": "Discover cultural elegance with this men's tan...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "9e535e10-cc64-4d9f-b0fb-569564b797a0",
+  "fields": {
+    "created_at": "2025-07-14T13:05:44.090Z",
+    "updated_at": "2025-07-14T13:05:44.090Z",
+    "product_name": "Essential Comfort Solid Hoodie",
+    "category": "bc3fa100-ffba-4208-9073-703865465802",
+    "price": 3500,
+    "slug": "essential-comfort-solid-hoodie",
+    "product_description": "A timeless addition to any wardrobe, this soft beige hoodie offers ultimate comfort and versatility. Its solid color makes it easy to pair with any outfit, perfect for layering or as a standalone piece for a relaxed look.",
+    "short_desc": "A timeless addition to any wardrobe, this soft ...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "9fcf17e4-09d2-4531-864f-c85afc408df0",
+  "fields": {
+    "created_at": "2025-07-15T02:37:54.655Z",
+    "updated_at": "2025-07-15T02:37:54.655Z",
+    "product_name": "Men's Two-Tone Color Block Shorts",
+    "category": "d86c3c44-5721-457f-acbe-99401d857af9",
+    "price": 1400,
+    "slug": "mens-two-tone-color-block-shorts",
+    "product_description": "These men's shorts feature a stylish two-tone color block design, with a grey upper half and a black lower half. They are equipped with a comfortable elastic waistband and a black drawstring for an adjustable fit. Side pockets and a small patch on the right leg add to their casual, modern appeal, perfect for everyday wear.",
+    "short_desc": "These men's shorts feature a stylish two-tone....",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "a20dd472-b527-441f-8f7d-9b02d2fa49cc",
+  "fields": {
+    "created_at": "2025-07-15T02:57:56.005Z",
+    "updated_at": "2025-07-15T02:57:56.005Z",
+    "product_name": "Men's Two-Tone Grey & Black T-Shirt",
+    "category": "3a1cda18-cb84-4bc0-82ce-39ba15d20cef",
+    "price": 1800,
+    "slug": "mens-two-tone-grey-black-t-shirt",
+    "product_description": "This men's t-shirt combines a modern color block design with artistic flair. One half is dark grey heather, and the other is solid black, creating a distinct split down the center. A unique white graphic of two roses emerging from a simulated pocket adds a touch of sophistication and detail to this casual tee.",
+    "short_desc": "This men's t-shirt combines a modern color block..",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "a293e94b-3ca9-4807-a835-35fdc5a012ee",
+  "fields": {
+    "created_at": "2025-07-15T02:56:28.192Z",
+    "updated_at": "2025-07-15T02:56:28.192Z",
+    "product_name": "Men's Grey Classic Drawstring Sweat Shor",
+    "category": "d86c3c44-5721-457f-acbe-99401d857af9",
+    "price": 1600,
+    "slug": "mens-grey-classic-drawstring-sweat-shor",
+    "product_description": "Comfortable grey sweat shorts for men, featuring a ribbed elastic waistband with stylish brown-accented drawstring eyelets. These casual shorts include convenient side pockets and small branded details, perfect for everyday relaxation.",
+    "short_desc": "Comfortable grey sweat shorts for men, featuring",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "b0efddfe-6aca-4159-b4be-bea4d670cad9",
+  "fields": {
+    "created_at": "2025-07-15T03:30:53.104Z",
+    "updated_at": "2025-07-15T03:30:53.104Z",
+    "product_name": "Black & White Knit Sneakers",
+    "category": "db084757-a44d-4856-a8b4-d24c9d4641c7",
+    "price": 6900,
+    "slug": "black-white-knit-sneakers",
+    "product_description": "cre a breathable, black and white patterned knit upper, an eye-catching sculpted white sole, and a striking red heel strap with bold branding. The unique design offers both a secure fit and a high-fashion athletic look, perfect for streetwear enthusiasts.",
+    "short_desc": "Step up your style with these modern and comfo...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "b32a6447-1f7e-4209-97e1-d440f84dc24a",
+  "fields": {
+    "created_at": "2025-07-15T02:48:25.091Z",
+    "updated_at": "2025-07-15T02:48:25.091Z",
+    "product_name": "Men's Khaki Multi-Pocket Cargo Shorts",
+    "category": "d86c3c44-5721-457f-acbe-99401d857af9",
+    "price": 1700,
+    "slug": "mens-khaki-multi-pocket-cargo-shorts",
+    "product_description": "Rugged and practical men's khaki cargo shorts, designed with an elasticated drawstring waistband, a button and zip fly, and multiple functional pockets, including side cargo pockets with zip and flap closures, perfect for outdoor activities or casual utility wear.",
+    "short_desc": "Rugged and practical men's khaki cargo shorts, ...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "b38692bc-ab5c-4e72-8061-add767e8616b",
+  "fields": {
+    "created_at": "2025-07-15T02:43:29.981Z",
+    "updated_at": "2025-07-15T02:43:29.981Z",
+    "product_name": "Men's Technical Olive Green Workwear Pan",
+    "category": "215df3e9-9c55-4245-ab22-202e3e89f6b5",
+    "price": 2100,
+    "slug": "mens-technical-olive-green-workwear-pan",
+    "product_description": "Designed for functionality and modern style, these men's olive green workwear pants offer durability and unique design elements. Featuring an adjustable belt and an elasticated waist for a secure fit, these pants also boast distinctive side zippers and adjustable leg openings, allowing for versatile styling. Made from a robust fabric, they are ideal for those who value both utility and a contemporary aesthetic.",
+    "short_desc": "Designed for functionality and modern style, the..",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "bda6ab43-d5b1-40f6-9762-797db5750305",
+  "fields": {
+    "created_at": "2025-07-14T13:32:55.550Z",
+    "updated_at": "2025-07-14T13:32:55.550Z",
+    "product_name": "Men's Everyday Light Blue Denim Jacket",
+    "category": "90c5bb8e-f937-4262-b829-3239f0678feb",
+    "price": 2000,
+    "slug": "mens-everyday-light-blue-denim-jacket",
+    "product_description": "A quintessential piece for any casual ensemble, this men's light blue denim jacket offers a classic fit and versatile style. It features traditional button-flap chest pockets, side slit pockets, and a full button-front closure, making it an easy layering option for year-round wear.",
+    "short_desc": "A quintessential piece for any casual ensemble,...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "c1f614e7-7bef-42d8-b2ac-1faf17d0875a",
+  "fields": {
+    "created_at": "2025-07-15T03:26:37.250Z",
+    "updated_at": "2025-07-15T03:26:37.250Z",
+    "product_name": "Eastern Dragon Graphic Pullover Hoodie",
+    "category": "bc3fa100-ffba-4208-9073-703865465802",
+    "price": 2300,
+    "slug": "eastern-dragon-graphic-pullover-hoodie",
+    "product_description": "Embrace cultural aesthetics with this striking white hoodie featuring an intricate black Japanese dragon graphic wrapping around the sleeve and side. Complete with Japanese script on the front, this hoodie combines comfort with unique artistry.",
+    "short_desc": "Embrace cultural aesthetics with this striking ..",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "c6324594-4185-46dd-99c7-41fcfe3adc0b",
+  "fields": {
+    "created_at": "2025-07-14T13:08:12.937Z",
+    "updated_at": "2025-07-14T13:08:12.937Z",
+    "product_name": "Men's Loose Fit Beige Cargo Pants",
+    "category": "215df3e9-9c55-4245-ab22-202e3e89f6b5",
+    "price": 2100,
+    "slug": "mens-loose-fit-beige-cargo-pants",
+    "product_description": "Step into comfort and style with these loose-fit beige cargo pants for men. Designed for a relaxed silhouette, they feature a practical cargo pocket with a unique zip detail. The adjustable drawstring hems allow you to customize the fit around your ankles, offering versatility in styling. Ideal for a laid-back, contemporary look that prioritizes comfort and freedom of movement.",
+    "short_desc": "tep into comfort and style with these loos..",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "c8e66c75-4ae9-4299-941d-422ff42cc839",
+  "fields": {
+    "created_at": "2025-07-14T13:09:35.274Z",
+    "updated_at": "2025-07-14T13:09:35.274Z",
+    "product_name": "Custom Black & Red Nike Air Force",
+    "category": "db084757-a44d-4856-a8b4-d24c9d4641c7",
+    "price": 7900,
+    "slug": "custom-black-red-nike-air-force",
+    "product_description": "Elevate your sneaker game with these striking custom black Nike Air Force 1s. Featuring a matte black upper with subtle dark grey undertones, these shoes are highlighted by vibrant red accents on the tongue and heel, giving them a unique and bold personality. Perfect for those who appreciate a classic silhouette with a distinct, edgy twist.",
+    "short_desc": "Elevate your sneaker game with these striking ...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "ca67f254-16b0-4425-b3ba-26b05791a6be",
+  "fields": {
+    "created_at": "2025-07-15T02:32:19.576Z",
+    "updated_at": "2025-07-15T02:32:19.577Z",
+    "product_name": "Men's Classic Black Lightweight jacket",
+    "category": "90c5bb8e-f937-4262-b829-3239f0678feb",
+    "price": 2700,
+    "slug": "mens-classic-black-lightweight-jacket",
+    "product_description": "A timeless staple for any wardrobe, this men's black bomber jacket offers a sleek and lightweight design. It features the signature ribbed collar, cuffs, and hem, a full front zipper, and a convenient zippered utility pocket on the left sleeve, combining practicality with understated style.",
+    "short_desc": "A timeless staple for any wardrobe, this men's...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "cb3a39d1-c0d0-4e0f-ba27-e88319909fbe",
+  "fields": {
+    "created_at": "2025-07-14T13:14:58.015Z",
+    "updated_at": "2025-07-14T13:14:58.015Z",
+    "product_name": "Everyday Two-Tone Pullover Hoodie",
+    "category": "bc3fa100-ffba-4208-9073-703865465802",
+    "price": 2100,
+    "slug": "everyday-two-tone-pullover-hoodie",
+    "product_description": "Simple yet stylish, this casual blue hoodie features subtle color-blocking with a light grey hood lining and sleeve cuffs. Designed for comfort and versatility, it's a go-to piece for relaxed days. The adjustable drawstrings add a functional touch.",
+    "short_desc": "Simple yet stylish, this casual blue hoodie fea...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "d2697b3c-e6df-407c-a619-7d3d4c089e90",
+  "fields": {
+    "created_at": "2025-07-14T13:10:57.824Z",
+    "updated_at": "2025-07-14T13:10:57.824Z",
+    "product_name": "Men's Abstract Black & White Shorts",
+    "category": "d86c3c44-5721-457f-acbe-99401d857af9",
+    "price": 1300,
+    "slug": "mens-abstract-black-white-shorts",
+    "product_description": "Make a statement at the beach or pool with these striking men's swim trunks, featuring a bold black and white abstract or marble-like print. They come with a comfortable elastic waistband and an adjustable white drawstring.",
+    "short_desc": "Make a statement at the beach or pool with t...",
+    "size_varient": []
+  }
+},
+{
+  "model": "product.product",
+  "pk": "d5ca3032-3f68-42fe-935d-7723261cb2c2",
+  "fields": {
+    "created_at": "2025-07-15T03:38:20.595Z",
+    "updated_at": "2025-07-15T03:37:09.048Z",
+    "product_name": "Nike Men's Grey Sportswear Shorts",
+    "category": "d86c3c44-5721-457f-acbe-99401d857af9",
+    "price": 1500,
+    "slug": "nike-mens-grey-sportswear-shorts",
+    "product_description": "Classic grey fleece shorts by Nike, showcasing the iconic white Swoosh logo prominently on the left leg. These comfortable shorts have an elastic waistband with an adjustable drawstring, ideal for athletic pursuits or relaxed daily wear.",
+    "short_desc": "Classic grey fleece shorts by Nike, showcasing t..",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "dc14d0d7-4acb-49b9-ae0e-0beb4fe974b8",
+  "fields": {
+    "created_at": "2025-07-15T03:24:50.512Z",
+    "updated_at": "2025-07-15T03:24:50.512Z",
+    "product_name": "Teen Boys' Sage Green Tshirt",
+    "category": "3a1cda18-cb84-4bc0-82ce-39ba15d20cef",
+    "price": 1750,
+    "slug": "teen-boys-sage-green-tshirt",
+    "product_description": "An oversized sage green t-shirt for teen boys, this shirt features a bold \"NEVER LOOK BACK\" slogan across the back. The design is complemented by various sticker-like graphics and patches with phrases like \"ADVENTURES,\" \"STAY WILD,\" and \"FEEL GREAT,\" offering a fun, motivational, and trendy streetwear look.",
+    "short_desc": "An oversized sage green t-shirt for teen boys, ...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "e0a9574f-e033-4906-aab4-2c151dc7e6de",
+  "fields": {
+    "created_at": "2025-07-14T13:34:07.531Z",
+    "updated_at": "2025-07-14T13:34:07.531Z",
+    "product_name": "Men's Classic Straight Leg Blue Jeans",
+    "category": "215df3e9-9c55-4245-ab22-202e3e89f6b5",
+    "price": 2100,
+    "slug": "mens-classic-straight-leg-blue-jeans",
+    "product_description": "Discover timeless comfort and style with our men's classic straight-leg blue jeans. Made from durable denim, these jeans offer a relaxed yet flattering fit that is perfect for everyday wear. Their versatile design makes them easy to pair with a variety of tops and shoes, ensuring a comfortable and effortlessly stylish look for any casual occasion",
+    "short_desc": "Discover timeless comfort and style with our m...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "e3f37588-3115-4c25-85d1-0e6cd146d0f7",
+  "fields": {
+    "created_at": "2025-07-15T03:06:07.922Z",
+    "updated_at": "2025-07-15T03:06:07.922Z",
+    "product_name": "Men's Black Comfort Shorts",
+    "category": "d86c3c44-5721-457f-acbe-99401d857af9",
+    "price": 1300,
+    "slug": "mens-black-comfort-shorts",
+    "product_description": "Elevate your casual style with these black shorts, featuring a comfortable elastic waistband and a bold white drawstring. Made from a soft fabric, they include side pockets and subtle embossed branding on the right leg, perfect for a relaxed yet stylish",
+    "short_desc": "Elevate your casual style with these black sho...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "e7e34791-4f27-4c3a-92c4-71899c75cc1a",
+  "fields": {
+    "created_at": "2025-07-15T02:55:22.491Z",
+    "updated_at": "2025-07-15T02:55:22.491Z",
+    "product_name": "Men's Rugged \"YITU Fashion\" Shose",
+    "category": "db084757-a44d-4856-a8b4-d24c9d4641c7",
+    "price": 7100,
+    "slug": "mens-rugged-yitu-fashion-shose",
+    "product_description": "Conquer the outdoors with these durable men's hiking and outdoor boots from \"YITU Fashion.\" Built for comfort and protection, they feature a robust grey and black upper with bright yellow accents, sturdy D-ring lacing, and a heavy-duty lug sole for superior grip. Ideal for winter hikes, trekking, or rugged daily wear.",
+    "short_desc": "Conquer the outdoors with these durable men's ....",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "f0533e61-5e31-4298-b6be-b93bca53937c",
+  "fields": {
+    "created_at": "2025-07-14T13:01:15.994Z",
+    "updated_at": "2025-07-14T12:53:04.351Z",
+    "product_name": "Men's Casual Drawstring Cargo Joggers",
+    "category": "215df3e9-9c55-4245-ab22-202e3e89f6b5",
+    "price": 1700,
+    "slug": "mens-casual-drawstring-cargo-joggers",
+    "product_description": "Embrace a relaxed yet stylish look with these men's casual cargo joggers. Made from a comfortable fabric, these pants feature an adjustable drawstring waist for a personalized fit and elasticated cuffs for a modern jogger silhouette. Multiple utility pockets, including a distinctive contrast-colored pocket on the side, add both functionality and a unique design element. Perfect for everyday wear, streetwear, or laid-back outings.",
+    "short_desc": "Embrace a relaxed yet stylish look with these...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "f619d927-9191-468a-9965-ee1e83cbe4f5",
+  "fields": {
+    "created_at": "2025-07-15T02:52:57.570Z",
+    "updated_at": "2025-07-15T02:52:57.570Z",
+    "product_name": "Elite Men's Wool & Faux Leather Varsity",
+    "category": "90c5bb8e-f937-4262-b829-3239f0678feb",
+    "price": 3600,
+    "slug": "elite-mens-wool-faux-leather-varsity",
+    "product_description": "Step up your outerwear game with this premium men's varsity jacket, blending a sophisticated black wool body with sleek faux leather sleeves. It boasts a classic ribbed collar and cuffs, snap-button front, and distinctive embroidered detailing, perfect for a refined yet casual statement.",
+    "short_desc": "Step up your outerwear game with this premium me..",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "fb77abe8-52ec-46f2-9e9c-7d28fd26496f",
+  "fields": {
+    "created_at": "2025-07-15T03:21:02.900Z",
+    "updated_at": "2025-07-15T03:21:02.900Z",
+    "product_name": "Adidas Campus 00s Suede Low-Top Sneakers",
+    "category": "db084757-a44d-4856-a8b4-d24c9d4641c7",
+    "price": 4200,
+    "slug": "adidas-campus-00s-suede-low-top-sneakers",
+    "product_description": "A clean and classic pair of Adidas Campus 00s sneakers. These low-tops feature a smooth grey suede upper, iconic white serrated leather three stripes, and a cushioned white sole. The retro-inspired design, complete with a gum rubber outsole, offers a timeless and versatile look that pairs well with a variety of casual outfits.",
+    "short_desc": "A clean and classic pair of Adidas Campus 00s s...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "fe3098ea-8e5f-48e0-a6e6-8a1e91648de2",
+  "fields": {
+    "created_at": "2025-07-14T13:57:15.718Z",
+    "updated_at": "2025-07-14T13:57:15.718Z",
+    "product_name": "Sleek White & Grey Urban Sport Sneakers",
+    "category": "db084757-a44d-4856-a8b4-d24c9d4641c7",
+    "price": 4300,
+    "slug": "sleek-white-grey-urban-sport-sneakers",
+    "product_description": "Step into modern comfort with these stylish white and light grey urban sport sneakers. Featuring a clean, minimalist design with contrasting textures and subtle black accents, these shoes offer both versatility and a contemporary edge. The cushioned sole ensures all-day comfort, making them perfect for daily wear, casual outings, or light athletic activities.",
+    "short_desc": "Step into modern comfort with these stylish ....",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.product",
+  "pk": "ff4ec6e2-70d9-40ec-a4dd-dd66c83d6e99",
+  "fields": {
+    "created_at": "2025-07-15T03:08:09.947Z",
+    "updated_at": "2025-07-15T03:08:09.947Z",
+    "product_name": "Men's Navy Blue Japanese TShirt",
+    "category": "3a1cda18-cb84-4bc0-82ce-39ba15d20cef",
+    "price": 1700,
+    "slug": "mens-navy-blue-japanese-tshirt",
+    "product_description": "Step into unique casual style with this men's navy blue short-sleeved t-shirt, featuring a captivating graphic inspired by traditional Japanese landscapes. The design includes serene grey mountains, a bold red sun, and elegant Japanese characters, bringing a touch of cultural artistry to your everyday attire.",
+    "short_desc": "Step into unique casual style with this men's n...",
+    "size_varient": [
+      "7c9f0310-27b5-4010-af75-98417014cf31",
+      "3107fe57-aaac-4ffa-b843-fad56edf054b",
+      "cf11c4fe-005f-47b3-bb3d-975fd59d350d"
+    ]
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "0494bff8-8e09-4cf7-a1c0-15d62cfcff7a",
+  "fields": {
+    "created_at": "2025-07-14T13:07:02.502Z",
+    "updated_at": "2025-07-14T13:07:02.502Z",
+    "product": "201d5a86-5e1d-467d-8983-5aa7f6e265b2",
+    "image": "product/0a6619da-87de-4edb-b962-2fb48312f2fe_OpzcXw3.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "07ecf64e-18e9-4d0c-a976-40c72521589d",
+  "fields": {
+    "created_at": "2025-07-15T03:37:09.071Z",
+    "updated_at": "2025-07-15T03:37:09.071Z",
+    "product": "d5ca3032-3f68-42fe-935d-7723261cb2c2",
+    "image": "product/PRICES_MAY_VARY__Order_and_Size_Please_refer_to_1_AU5kelY.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "087da7f6-0ab7-42f9-829c-a7b7fe777546",
+  "fields": {
+    "created_at": "2025-07-15T02:56:28.207Z",
+    "updated_at": "2025-07-15T02:56:28.207Z",
+    "product": "a293e94b-3ca9-4807-a835-35fdc5a012ee",
+    "image": "product/PRICES_MAY_VARY__Order_and_Size_Please_refer_to_rs6hbRC.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "0993dd46-7610-40fe-a4a1-354170563edc",
+  "fields": {
+    "created_at": "2025-07-14T13:55:49.759Z",
+    "updated_at": "2025-07-14T13:55:49.759Z",
+    "product": "0f2c52ff-4172-42e9-8594-fcf781d3cab4",
+    "image": "product/Pantalones_De_Carga_Holgados_Para_Hombre_Con_cBAF4Y3.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "0cf2da27-e427-41c9-814a-7898df7105a8",
+  "fields": {
+    "created_at": "2025-07-14T13:53:08.132Z",
+    "updated_at": "2025-07-14T13:53:08.132Z",
+    "product": "829ac169-5609-42b3-80d9-9b0a10e6455e",
+    "image": "product/Loose_Fit_Mens_Slogan_Graphic_2_In_1_Hoodie_With_1_VULSMEE.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "11eb490a-fb74-44df-8ba8-f417df147bb3",
+  "fields": {
+    "created_at": "2025-07-15T02:33:47.893Z",
+    "updated_at": "2025-07-15T02:33:47.893Z",
+    "product": "2c8cb4af-fac3-4a66-ae9c-3bf09df7689a",
+    "image": "product/PRICES_MAY_VARY__Comfortable_Fabric__100_SGBAKfQ.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "14b0ee83-e22a-4085-bea9-a5019c3b0dd9",
+  "fields": {
+    "created_at": "2025-07-15T03:27:50.964Z",
+    "updated_at": "2025-07-15T03:27:50.964Z",
+    "product": "9d26324c-d2db-476c-9415-b30e0d17753f",
+    "image": "product/PRICES_MAY_VARY__Material__Lightweight_2UJiLHN.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "16f477d0-7553-4125-9435-b4759d33e0c6",
+  "fields": {
+    "created_at": "2025-07-15T02:30:34.563Z",
+    "updated_at": "2025-07-15T02:30:34.563Z",
+    "product": "1fa05453-6205-4829-bb34-72d62f01da91",
+    "image": "product/Loose_Mens_Letter_Printed_Pocket_Front_Drawstring_iicFwK7.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "17b870b8-4e3e-4529-b284-9edb924f3675",
+  "fields": {
+    "created_at": "2025-07-14T13:44:06.740Z",
+    "updated_at": "2025-07-14T13:44:06.740Z",
+    "product": "542242c0-1ef3-4096-960e-5559b8db8d75",
+    "image": "product/73839729-1e4b-4405-8e13-0ab8a72a0fb5_dlcRwNh.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "18d5a47f-3120-474a-a347-ebf58044d5d6",
+  "fields": {
+    "created_at": "2025-07-14T13:48:43.612Z",
+    "updated_at": "2025-07-14T13:48:43.612Z",
+    "product": "2d8ac411-0bc7-4656-8eb3-9f57470de9fe",
+    "image": "product/Hombres_Camiseta_con_estampado_floral_con_slogan_k70jO1c.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "1989d28e-49bc-43fa-90a9-ae532b8cac6a",
+  "fields": {
+    "created_at": "2025-07-14T13:16:54.699Z",
+    "updated_at": "2025-07-14T13:16:54.700Z",
+    "product": "4ff10691-3473-4c2e-a034-6454075d90d6",
+    "image": "product/1_Stⁿck_Herren_thermisch_gefⁿtterte_Kapuzenjacke_iDCLEYF.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "1a93d66a-de22-4670-9aa6-b33757afa122",
+  "fields": {
+    "created_at": "2025-07-15T02:30:34.556Z",
+    "updated_at": "2025-07-15T02:30:34.556Z",
+    "product": "1fa05453-6205-4829-bb34-72d62f01da91",
+    "image": "product/Loose_Mens_Letter_Printed_Pocket_Front_Drawstring_Kz8WwT1.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "1b6e070b-6276-415e-be31-2f1213e4e275",
+  "fields": {
+    "created_at": "2025-07-15T03:37:09.064Z",
+    "updated_at": "2025-07-15T03:37:09.064Z",
+    "product": "d5ca3032-3f68-42fe-935d-7723261cb2c2",
+    "image": "product/PRICES_MAY_VARY__Order_and_Size_Please_refer_to_1.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "1f8491a8-5a88-4c14-ae7f-705417183aeb",
+  "fields": {
+    "created_at": "2025-07-14T13:04:18.345Z",
+    "updated_at": "2025-07-14T13:04:18.345Z",
+    "product": "05c056d3-f9d4-4f2d-bc5e-666376708996",
+    "image": "product/description-9860718035283_table__font-size_6ihy9ue.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "1f9d65b0-4a6d-479f-b861-a1f27736bbae",
+  "fields": {
+    "created_at": "2025-07-15T03:08:09.988Z",
+    "updated_at": "2025-07-15T03:08:09.988Z",
+    "product": "ff4ec6e2-70d9-40ec-a4dd-dd66c83d6e99",
+    "image": "product/Summer_new_mens_casual_simple_short-sleeved_0cC64wI.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "22cbf154-0826-48d5-8537-2d43d679c243",
+  "fields": {
+    "created_at": "2025-07-14T13:04:18.338Z",
+    "updated_at": "2025-07-14T13:04:18.338Z",
+    "product": "05c056d3-f9d4-4f2d-bc5e-666376708996",
+    "image": "product/description-9860718035283_table__font-size_c8zM0bC.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "2945aeda-2f7f-4737-b05e-d037f80362ba",
+  "fields": {
+    "created_at": "2025-07-15T02:33:47.863Z",
+    "updated_at": "2025-07-15T02:33:47.863Z",
+    "product": "2c8cb4af-fac3-4a66-ae9c-3bf09df7689a",
+    "image": "product/PRICES_MAY_VARY__Comfortable_Fabric__100_au1A4h7.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "2b009bd3-0c8f-4d98-8530-4bd90594568f",
+  "fields": {
+    "created_at": "2025-07-14T13:26:34.158Z",
+    "updated_at": "2025-07-14T13:26:34.158Z",
+    "product": "19c806f9-c2d5-4cb1-8545-353670c6dbf6",
+    "image": "product/83b0f1b6-77cc-4937-a4a6-56c2cf8c7060_CyJ8lcH.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "2ca1f025-b698-4794-8bf5-d11c89dfed0c",
+  "fields": {
+    "created_at": "2025-07-15T03:17:10.171Z",
+    "updated_at": "2025-07-15T03:17:10.171Z",
+    "product": "4ef420d8-4798-4b4c-82cf-42b25c58012a",
+    "image": "product/Mens_Rugged_Utility_Jacket_Timeless_Durability_iMadhrN.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "2dcc84f3-552c-4d5a-bf26-d4964b32b764",
+  "fields": {
+    "created_at": "2025-07-14T13:36:08.122Z",
+    "updated_at": "2025-07-14T13:36:08.122Z",
+    "product": "9190b417-f088-4df4-b096-9ea4c4b3e5d8",
+    "image": "product/Cordπo_Bolso_Simples_bßsico_Shorts__Masculino_f2CSGb8.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "32595a03-04d8-4a20-a3cc-a1a7e168892a",
+  "fields": {
+    "created_at": "2025-07-14T13:36:08.129Z",
+    "updated_at": "2025-07-14T13:36:08.129Z",
+    "product": "9190b417-f088-4df4-b096-9ea4c4b3e5d8",
+    "image": "product/Cordπo_Bolso_Simples_bßsico_Shorts__Masculino_1KyJGwt.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "346ad8d6-0cd1-4677-b77e-9289a94d9186",
+  "fields": {
+    "created_at": "2025-07-15T02:55:22.504Z",
+    "updated_at": "2025-07-15T02:55:22.504Z",
+    "product": "e7e34791-4f27-4c3a-92c4-71899c75cc1a",
+    "image": "product/Diese_Winter-Schneestiefel_fⁿr_Herren_kombinieren_6ojEmBf.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "350613b0-8d30-4b6e-bfb4-106ec540c787",
+  "fields": {
+    "created_at": "2025-07-15T02:41:16.135Z",
+    "updated_at": "2025-07-15T02:41:16.135Z",
+    "product": "41d0e214-7073-4783-9a5d-4f5083d25c2e",
+    "image": "product/Men_Letter_Graphic_Long_Sleeve_Casual_Color_Block_8vkJMG3.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "3636b118-0a74-4816-9071-60fa682ac3e3",
+  "fields": {
+    "created_at": "2025-07-15T03:06:07.945Z",
+    "updated_at": "2025-07-15T03:06:07.945Z",
+    "product": "e3f37588-3115-4c25-85d1-0e6cd146d0f7",
+    "image": "product/Step_up_your_casual_style_game_with_these_elevated_TdPQ2sx.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "3a8b1fe9-8857-4b0a-b851-8007c1ad5ad1",
+  "fields": {
+    "created_at": "2025-07-14T13:55:49.752Z",
+    "updated_at": "2025-07-14T13:55:49.752Z",
+    "product": "0f2c52ff-4172-42e9-8594-fcf781d3cab4",
+    "image": "product/Pantalones_De_Carga_Holgados_Para_Hombre_Con_H1R291V.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "3bb55d91-c4cf-408a-bc55-e2a5285b0326",
+  "fields": {
+    "created_at": "2025-07-14T12:53:04.372Z",
+    "updated_at": "2025-07-14T12:53:04.372Z",
+    "product": "f0533e61-5e31-4298-b6be-b93bca53937c",
+    "image": "product/9f822e8c-aa17-4955-8e4d-9086d01880ac_A4YxK4r.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "3d5c613e-71b3-4119-b609-952e9e41d7bc",
+  "fields": {
+    "created_at": "2025-07-15T03:27:50.954Z",
+    "updated_at": "2025-07-15T03:27:50.954Z",
+    "product": "9d26324c-d2db-476c-9415-b30e0d17753f",
+    "image": "product/PRICES_MAY_VARY__Material__Lightweight_7KACKxv.jpeg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": "3e9887fe-c953-4412-801b-af1f016397cb",
+  "fields": {
+    "created_at": "2025-07-14T13:41:08.574Z",
+    "updated_at": "2025-07-14T13:41:08.574Z",
+    "product": "0741820e-915d-4bc1-90f1-27e2068d4b29",
+    "image": "product_images/sample.jpg"
+  }
+}
+]
+
