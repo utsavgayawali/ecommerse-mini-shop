@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ecommerse-mini-shop
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "uvicorn ecomm.asgi:application --host 0.0.0.0 --port $PORT"
+    postDeploy:
+      - python manage.py migrate
+      - python manage.py loaddata data_no_bom.json
